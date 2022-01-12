@@ -5,7 +5,7 @@
 * clone this repository
 ```
 git clone --recurse-submodules https://github.com/sporniket/seed-kicad.git your_project
-cd kicad-symbols-generated
+cd your_project/kicad-symbols-generated
 make
 cd ..
 ```
