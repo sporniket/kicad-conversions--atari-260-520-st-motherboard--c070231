@@ -783,5 +783,5 @@
     (data "50 E6 F2 1A 36 CA FF 07 54 2E E6 B7 AE CB 53 6A 00 00 00 00 49 45 4E 44 AE 42 60 82 ")
     )
   )
-  (tbtext "This project is originally made by David SPORN. It is marked\nwith CC0 1.0 Universal. To view a copy of this license, visit \nhttp://creativecommons.org/publicdomain/zero/1.0\n\nThe original source project of this document may be found at \nhttps://github.com/sporniket/atari-st-mod-rgb565-experiment" (name text18:Text) (pos 3 14.002 lbcorner) (justify bottom))
+  (tbtext "This project is originally made by David SPORN. It is marked\nwith CC0 1.0 Universal. To view a copy of this license, visit \nhttp://creativecommons.org/publicdomain/zero/1.0\n\nSee the cartridge to find the original source of this document" (name text18:Text) (pos 3 14.002 lbcorner) (justify bottom))
 )
