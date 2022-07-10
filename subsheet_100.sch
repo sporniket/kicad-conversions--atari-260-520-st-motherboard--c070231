@@ -5,12 +5,12 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 2
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-08"
+Date "2022-07-10"
 Rev "0"
 Comp ""
-Comment1 "Original repository : ---"
-Comment2 "Reference : C070231"
-Comment3 ""
+Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
+Comment2 "Original repository : https://github.com/…"
+Comment3 "Reference : C070231"
 Comment4 ""
 $EndDescr
 $Comp
@@ -68,7 +68,7 @@ F 3 "" H 2200 9700 50  0001 L TNN
 	1    2500 8750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 1000 2    50   BiDi ~ 0
+Text GLabel 1500 1000 2    50   Input ~ 0
 ADDR[1..23]
 Text Label 1250 1000 2    50   ~ 0
 A[1..23]
@@ -86,7 +86,7 @@ Text Label 5750 1000 2    50   ~ 0
 MD[0..15]
 Wire Bus Line
 	5750 1000 6000 1000
-Text GLabel 4500 1000 2    50   BiDi ~ 0
+Text GLabel 4500 1000 2    50   Output ~ 0
 MADDR[0..8]
 Text Label 4250 1000 2    50   ~ 0
 MAD[0..8]
