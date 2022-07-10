@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name cliparts-reference)(type KiCad)(uri ${KIPRJMOD}/cliparts-reference.pretty)(options "")(descr ""))
+  (lib (name cliparts)(type KiCad)(uri ${KIPRJMOD}/cliparts.pretty)(options "")(descr ""))
+)
