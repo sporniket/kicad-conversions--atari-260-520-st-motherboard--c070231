@@ -1110,7 +1110,7 @@ Text GLabel 1200 4200 0    50   Output ~ 0
 XWE
 Text GLabel 1300 4300 0    50   Input ~ 0
 XDMA
-Text GLabel 1300 3600 0    50   BiDi ~ 0
+Text GLabel 1300 3600 0    50   Input ~ 0
 XLDS
 Wire Wire Line
 	1200 3800 1700 3800
@@ -1128,11 +1128,11 @@ Text GLabel 2600 5700 3    50   Output ~ 0
 DCYC
 Text GLabel 2800 5600 3    50   Input ~ 0
 XDEV
-Text GLabel 2900 5600 3    50   BiDi ~ 0
+Text GLabel 2900 5600 3    50   Input ~ 0
 XAS
 Text GLabel 3000 5600 3    50   Input ~ 0
 XRAM
-Text GLabel 3100 5600 3    50   BiDi ~ 0
+Text GLabel 3100 5600 3    50   Input ~ 0
 XRXW
 Wire Wire Line
 	2500 5700 2500 5250
@@ -1146,7 +1146,7 @@ Wire Wire Line
 	3000 5600 3000 5250
 Wire Wire Line
 	3100 5250 3100 5600
-Text GLabel 5500 3600 2    50   BiDi ~ 0
+Text GLabel 5550 3600 2    50   Output ~ 0
 XDTACK
 Text GLabel 5500 3700 2    50   Input ~ 0
 DE
@@ -1156,10 +1156,10 @@ Wire Wire Line
 	5500 3700 4800 3700
 Wire Wire Line
 	4800 3800 5500 3800
-Text GLabel 1300 4500 0    50   BiDi ~ 0
+Text GLabel 1300 4500 0    50   Input ~ 0
 XUDS
 Wire Wire Line
 	1300 4500 1700 4500
 Wire Wire Line
-	4800 3600 5500 3600
+	4800 3600 5550 3600
 $EndSCHEMATC
