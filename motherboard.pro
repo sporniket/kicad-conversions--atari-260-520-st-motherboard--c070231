@@ -1,4 +1,4 @@
-update=dim. 10 juil. 2022 21:14:54
+update=mar. 12 juil. 2022 21:31:56
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=page-description.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
@@ -75,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
