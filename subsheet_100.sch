@@ -3,15 +3,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-10"
+Date "2022-07-22"
 Rev "0"
 Comp ""
 Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
 Comment2 "Original repository : https://github.com/…"
-Comment3 "Reference : C070231"
-Comment4 ""
+Comment3 ""
+Comment4 "Reference : C070231"
 $EndDescr
 $Comp
 L st_mmu:ST_MMU_PHY U15

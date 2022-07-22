@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-10"
+Date "2022-07-22"
 Rev "0"
 Comp ""
 Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
@@ -25,4 +25,12 @@ F1 "subsheet_100.sch" 50
 $EndSheet
 Text Notes 6950 2350 0    50   ~ 0
 Page 2
+$Sheet
+S 1000 2650 6300 150 
+U 62DB00CC
+F0 "U16-17-19-24-25-28-29-30-32-33-34-38-42-43-44-45-RAM" 71
+F1 "subsheet_101.sch" 50
+$EndSheet
+Text Notes 6950 2750 0    50   ~ 0
+Page 3
 $EndSCHEMATC

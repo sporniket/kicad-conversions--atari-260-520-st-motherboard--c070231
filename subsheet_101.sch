@@ -1,0 +1,2060 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 3 3
+Title "Converted schematics of Atari 260/520 ST"
+Date "2022-07-22"
+Rev "0"
+Comp ""
+Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
+Comment2 "Original repository : https://github.com/…"
+Comment3 ""
+Comment4 "Reference : C070231"
+$EndDescr
+Text GLabel 2750 10100 2    50   BiDi ~ 0
+MDATA[0..15]
+Text Label 2500 10100 2    50   ~ 0
+MD[0..15]
+Wire Bus Line
+	2500 10100 2750 10100
+Text GLabel 1250 10100 2    50   Input ~ 0
+MADDR[0..8]
+Text Label 1000 10100 2    50   ~ 0
+MAD[0..8]
+Wire Bus Line
+	1000 10100 1250 10100
+$Comp
+L power:+5V #PWR?
+U 1 1 62DBBBCC
+P 3500 700
+F 0 "#PWR?" H 3500 550 50  0001 C CNN
+F 1 "+5V" H 3500 840 50  0000 C CNN
+F 2 "" H 3500 700 50  0001 C CNN
+F 3 "" H 3500 700 50  0001 C CNN
+	1    3500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62DBBE6A
+P 4500 700
+F 0 "#PWR?" H 4500 550 50  0001 C CNN
+F 1 "+5VA" H 4500 840 50  0000 C CNN
+F 2 "" H 4500 700 50  0001 C CNN
+F 3 "" H 4500 700 50  0001 C CNN
+	1    4500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 62DBC28E
+P 4600 700
+F 0 "#FLG?" H 4600 775 50  0001 C CNN
+F 1 "PWR_FLAG" V 4550 1000 50  0000 C CNN
+F 2 "" H 4600 700 50  0001 C CNN
+F 3 "~" H 4600 700 50  0001 C CNN
+	1    4600 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Small L29
+U 1 1 62DBC66A
+P 3900 700
+F 0 "L29" V 3950 750 50  0000 L CNN
+F 1 "10uH" V 3950 500 50  0000 L CNN
+F 2 "" H 3900 700 50  0001 C CNN
+F 3 "~" H 3900 700 50  0001 C CNN
+	1    3900 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C104
+U 1 1 62DBD8AB
+P 4250 950
+F 0 "C104" H 4300 1050 50  0000 L CNN
+F 1 "470uF" H 4300 850 50  0000 L CNN
+F 2 "" H 4250 950 50  0001 C CNN
+F 3 "~" H 4250 950 50  0001 C CNN
+	1    4250 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 700  3800 700 
+Wire Wire Line
+	4000 700  4250 700 
+Wire Wire Line
+	4500 700  4600 700 
+Connection ~ 4500 700 
+Wire Wire Line
+	4250 850  4250 700 
+Connection ~ 4250 700 
+Wire Wire Line
+	4250 700  4500 700 
+$Comp
+L power:GND #PWR?
+U 1 1 62DCB642
+P 4250 1200
+F 0 "#PWR?" H 4250 950 50  0001 C CNN
+F 1 "GND" H 4250 1050 50  0000 C CNN
+F 2 "" H 4250 1200 50  0001 C CNN
+F 3 "" H 4250 1200 50  0001 C CNN
+	1    4250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1200 4250 1050
+$Comp
+L power:GND #PWR?
+U 1 1 62E0215F
+P 750 2750
+F 0 "#PWR?" H 750 2500 50  0001 C CNN
+F 1 "GND" H 750 2600 50  0000 C CNN
+F 2 "" H 750 2750 50  0001 C CNN
+F 3 "" H 750 2750 50  0001 C CNN
+	1    750  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62E02165
+P 1300 2650
+F 0 "#PWR?" H 1300 2500 50  0001 C CNN
+F 1 "+5VA" H 1200 2800 50  0000 C CNN
+F 2 "" H 1300 2650 50  0001 C CNN
+F 3 "" H 1300 2650 50  0001 C CNN
+	1    1300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C42
+U 1 1 62E0216B
+P 1050 2750
+F 0 "C42" V 1000 2800 50  0000 L CNN
+F 1 "22uF" V 1000 2500 50  0000 L CNN
+F 2 "" H 1050 2750 50  0001 C CNN
+F 3 "~" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U33
+U 1 1 62E2E768
+P 2350 2400
+F 0 "U33" H 2000 2950 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 2950 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 3150 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 3250 50  0001 L TNN
+	1    2350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  2750 950  2750
+Wire Wire Line
+	1300 2650 1300 2750
+Wire Wire Line
+	1150 2750 1300 2750
+Connection ~ 1300 2750
+Text Label 1450 2450 0    50   ~ 0
+MAD0
+Text Label 1450 2650 0    50   ~ 0
+MAD1
+Text Label 1450 2550 0    50   ~ 0
+MAD2
+Text Label 3250 2450 2    50   ~ 0
+MAD3
+Text Label 3250 2550 2    50   ~ 0
+MAD4
+Text Label 3250 2650 2    50   ~ 0
+MAD5
+Text Label 3250 2350 2    50   ~ 0
+MAD6
+Text Label 3250 2750 2    50   ~ 0
+MAD7
+Text Label 1450 2050 0    50   ~ 0
+MAD8
+Text GLabel 1450 2350 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 2250 0    50   Input ~ 0
+XWE
+Text GLabel 3250 2150 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62E801CC
+P 3700 2050
+F 0 "#PWR?" H 3700 1800 50  0001 C CNN
+F 1 "GND" H 3700 1900 50  0000 C CNN
+F 2 "" H 3700 2050 50  0001 C CNN
+F 3 "" H 3700 2050 50  0001 C CNN
+	1    3700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2050 1700 2050
+Wire Wire Line
+	1450 2150 1700 2150
+Wire Wire Line
+	1450 2250 1700 2250
+Wire Wire Line
+	1450 2350 1700 2350
+Wire Wire Line
+	1450 2450 1700 2450
+Wire Wire Line
+	1450 2550 1700 2550
+Wire Wire Line
+	1450 2650 1700 2650
+Wire Wire Line
+	1300 2750 1700 2750
+Wire Wire Line
+	3000 2150 3250 2150
+Wire Wire Line
+	3000 2250 3250 2250
+Wire Wire Line
+	3000 2350 3250 2350
+Wire Wire Line
+	3000 2450 3250 2450
+Wire Wire Line
+	3000 2550 3250 2550
+Wire Wire Line
+	3000 2650 3250 2650
+Wire Wire Line
+	3000 2750 3250 2750
+Wire Wire Line
+	3000 2050 3700 2050
+$Comp
+L power:GND #PWR?
+U 1 1 62EDA9B7
+P 750 3900
+F 0 "#PWR?" H 750 3650 50  0001 C CNN
+F 1 "GND" H 750 3750 50  0000 C CNN
+F 2 "" H 750 3900 50  0001 C CNN
+F 3 "" H 750 3900 50  0001 C CNN
+	1    750  3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EDA9BD
+P 1300 3800
+F 0 "#PWR?" H 1300 3650 50  0001 C CNN
+F 1 "+5VA" H 1200 3950 50  0000 C CNN
+F 2 "" H 1300 3800 50  0001 C CNN
+F 3 "" H 1300 3800 50  0001 C CNN
+	1    1300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C44
+U 1 1 62EDA9C3
+P 1050 3900
+F 0 "C44" V 1000 3950 50  0000 L CNN
+F 1 "22uF" V 1000 3650 50  0000 L CNN
+F 2 "" H 1050 3900 50  0001 C CNN
+F 3 "~" H 1050 3900 50  0001 C CNN
+	1    1050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U34
+U 1 1 62EDA9C9
+P 2350 3550
+F 0 "U34" H 2000 4100 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 4100 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 4300 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 4400 50  0001 L TNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3900 950  3900
+Wire Wire Line
+	1300 3800 1300 3900
+Wire Wire Line
+	1150 3900 1300 3900
+Connection ~ 1300 3900
+Text Label 1450 3600 0    50   ~ 0
+MAD0
+Text Label 1450 3800 0    50   ~ 0
+MAD1
+Text Label 1450 3700 0    50   ~ 0
+MAD2
+Text Label 3250 3600 2    50   ~ 0
+MAD3
+Text Label 3250 3700 2    50   ~ 0
+MAD4
+Text Label 3250 3800 2    50   ~ 0
+MAD5
+Text Label 3250 3500 2    50   ~ 0
+MAD6
+Text Label 3250 3900 2    50   ~ 0
+MAD7
+Text Label 1450 3200 0    50   ~ 0
+MAD8
+Text GLabel 1450 3500 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 3400 0    50   Input ~ 0
+XWE
+Text GLabel 3250 3300 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EDA9DF
+P 3700 3200
+F 0 "#PWR?" H 3700 2950 50  0001 C CNN
+F 1 "GND" H 3700 3050 50  0000 C CNN
+F 2 "" H 3700 3200 50  0001 C CNN
+F 3 "" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3200 1700 3200
+Wire Wire Line
+	1450 3300 1700 3300
+Wire Wire Line
+	1450 3400 1700 3400
+Wire Wire Line
+	1450 3500 1700 3500
+Wire Wire Line
+	1450 3600 1700 3600
+Wire Wire Line
+	1450 3700 1700 3700
+Wire Wire Line
+	1450 3800 1700 3800
+Wire Wire Line
+	1300 3900 1700 3900
+Wire Wire Line
+	3000 3300 3250 3300
+Wire Wire Line
+	3000 3400 3250 3400
+Wire Wire Line
+	3000 3500 3250 3500
+Wire Wire Line
+	3000 3600 3250 3600
+Wire Wire Line
+	3000 3700 3250 3700
+Wire Wire Line
+	3000 3800 3250 3800
+Wire Wire Line
+	3000 3900 3250 3900
+Wire Wire Line
+	3000 3200 3700 3200
+$Comp
+L power:GND #PWR?
+U 1 1 62EDD16A
+P 750 5050
+F 0 "#PWR?" H 750 4800 50  0001 C CNN
+F 1 "GND" H 750 4900 50  0000 C CNN
+F 2 "" H 750 5050 50  0001 C CNN
+F 3 "" H 750 5050 50  0001 C CNN
+	1    750  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EDD170
+P 1300 4950
+F 0 "#PWR?" H 1300 4800 50  0001 C CNN
+F 1 "+5VA" H 1200 5100 50  0000 C CNN
+F 2 "" H 1300 4950 50  0001 C CNN
+F 3 "" H 1300 4950 50  0001 C CNN
+	1    1300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C45
+U 1 1 62EDD176
+P 1050 5050
+F 0 "C45" V 1000 5100 50  0000 L CNN
+F 1 "22uF" V 1000 4800 50  0000 L CNN
+F 2 "" H 1050 5050 50  0001 C CNN
+F 3 "~" H 1050 5050 50  0001 C CNN
+	1    1050 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U38
+U 1 1 62EDD17C
+P 2350 4700
+F 0 "U38" H 2000 5250 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 5250 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 5450 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 5550 50  0001 L TNN
+	1    2350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  5050 950  5050
+Wire Wire Line
+	1300 4950 1300 5050
+Wire Wire Line
+	1150 5050 1300 5050
+Connection ~ 1300 5050
+Text Label 1450 4750 0    50   ~ 0
+MAD0
+Text Label 1450 4950 0    50   ~ 0
+MAD1
+Text Label 1450 4850 0    50   ~ 0
+MAD2
+Text Label 3250 4750 2    50   ~ 0
+MAD3
+Text Label 3250 4850 2    50   ~ 0
+MAD4
+Text Label 3250 4950 2    50   ~ 0
+MAD5
+Text Label 3250 4650 2    50   ~ 0
+MAD6
+Text Label 3250 5050 2    50   ~ 0
+MAD7
+Text Label 1450 4350 0    50   ~ 0
+MAD8
+Text GLabel 1450 4650 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 4550 0    50   Input ~ 0
+XWE
+Text GLabel 3250 4450 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EDD192
+P 3700 4350
+F 0 "#PWR?" H 3700 4100 50  0001 C CNN
+F 1 "GND" H 3700 4200 50  0000 C CNN
+F 2 "" H 3700 4350 50  0001 C CNN
+F 3 "" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4350 1700 4350
+Wire Wire Line
+	1450 4450 1700 4450
+Wire Wire Line
+	1450 4550 1700 4550
+Wire Wire Line
+	1450 4650 1700 4650
+Wire Wire Line
+	1450 4750 1700 4750
+Wire Wire Line
+	1450 4850 1700 4850
+Wire Wire Line
+	1450 4950 1700 4950
+Wire Wire Line
+	1300 5050 1700 5050
+Wire Wire Line
+	3000 4450 3250 4450
+Wire Wire Line
+	3000 4550 3250 4550
+Wire Wire Line
+	3000 4650 3250 4650
+Wire Wire Line
+	3000 4750 3250 4750
+Wire Wire Line
+	3000 4850 3250 4850
+Wire Wire Line
+	3000 4950 3250 4950
+Wire Wire Line
+	3000 5050 3250 5050
+Wire Wire Line
+	3000 4350 3700 4350
+$Comp
+L power:GND #PWR?
+U 1 1 62EE0E80
+P 750 6200
+F 0 "#PWR?" H 750 5950 50  0001 C CNN
+F 1 "GND" H 750 6050 50  0000 C CNN
+F 2 "" H 750 6200 50  0001 C CNN
+F 3 "" H 750 6200 50  0001 C CNN
+	1    750  6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EE0E86
+P 1300 6100
+F 0 "#PWR?" H 1300 5950 50  0001 C CNN
+F 1 "+5VA" H 1200 6250 50  0000 C CNN
+F 2 "" H 1300 6100 50  0001 C CNN
+F 3 "" H 1300 6100 50  0001 C CNN
+	1    1300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C57
+U 1 1 62EE0E8C
+P 1050 6200
+F 0 "C57" V 1000 6250 50  0000 L CNN
+F 1 "22uF" V 1000 5950 50  0000 L CNN
+F 2 "" H 1050 6200 50  0001 C CNN
+F 3 "~" H 1050 6200 50  0001 C CNN
+	1    1050 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U42
+U 1 1 62EE0E92
+P 2350 5850
+F 0 "U42" H 2000 6400 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 6400 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 6600 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 6700 50  0001 L TNN
+	1    2350 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6200 950  6200
+Wire Wire Line
+	1300 6100 1300 6200
+Wire Wire Line
+	1150 6200 1300 6200
+Connection ~ 1300 6200
+Text Label 1450 5900 0    50   ~ 0
+MAD0
+Text Label 1450 6100 0    50   ~ 0
+MAD1
+Text Label 1450 6000 0    50   ~ 0
+MAD2
+Text Label 3250 5900 2    50   ~ 0
+MAD3
+Text Label 3250 6000 2    50   ~ 0
+MAD4
+Text Label 3250 6100 2    50   ~ 0
+MAD5
+Text Label 3250 5800 2    50   ~ 0
+MAD6
+Text Label 3250 6200 2    50   ~ 0
+MAD7
+Text Label 1450 5500 0    50   ~ 0
+MAD8
+Text GLabel 1450 5800 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 5700 0    50   Input ~ 0
+XWE
+Text GLabel 3250 5600 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EE0EA8
+P 3700 5500
+F 0 "#PWR?" H 3700 5250 50  0001 C CNN
+F 1 "GND" H 3700 5350 50  0000 C CNN
+F 2 "" H 3700 5500 50  0001 C CNN
+F 3 "" H 3700 5500 50  0001 C CNN
+	1    3700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5500 1700 5500
+Wire Wire Line
+	1450 5600 1700 5600
+Wire Wire Line
+	1450 5700 1700 5700
+Wire Wire Line
+	1450 5800 1700 5800
+Wire Wire Line
+	1450 5900 1700 5900
+Wire Wire Line
+	1450 6000 1700 6000
+Wire Wire Line
+	1450 6100 1700 6100
+Wire Wire Line
+	1300 6200 1700 6200
+Wire Wire Line
+	3000 5600 3250 5600
+Wire Wire Line
+	3000 5700 3250 5700
+Wire Wire Line
+	3000 5800 3250 5800
+Wire Wire Line
+	3000 5900 3250 5900
+Wire Wire Line
+	3000 6000 3250 6000
+Wire Wire Line
+	3000 6100 3250 6100
+Wire Wire Line
+	3000 6200 3250 6200
+Wire Wire Line
+	3000 5500 3700 5500
+$Comp
+L power:GND #PWR?
+U 1 1 62EE5CCF
+P 750 7350
+F 0 "#PWR?" H 750 7100 50  0001 C CNN
+F 1 "GND" H 750 7200 50  0000 C CNN
+F 2 "" H 750 7350 50  0001 C CNN
+F 3 "" H 750 7350 50  0001 C CNN
+	1    750  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EE5CD5
+P 1300 7250
+F 0 "#PWR?" H 1300 7100 50  0001 C CNN
+F 1 "+5VA" H 1200 7400 50  0000 C CNN
+F 2 "" H 1300 7250 50  0001 C CNN
+F 3 "" H 1300 7250 50  0001 C CNN
+	1    1300 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C78
+U 1 1 62EE5CDB
+P 1050 7350
+F 0 "C78" V 1000 7400 50  0000 L CNN
+F 1 "22uF" V 1000 7100 50  0000 L CNN
+F 2 "" H 1050 7350 50  0001 C CNN
+F 3 "~" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U43
+U 1 1 62EE5CE1
+P 2350 7000
+F 0 "U43" H 2000 7550 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 7550 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 7750 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 7850 50  0001 L TNN
+	1    2350 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  7350 950  7350
+Wire Wire Line
+	1300 7250 1300 7350
+Wire Wire Line
+	1150 7350 1300 7350
+Connection ~ 1300 7350
+Text Label 1450 7050 0    50   ~ 0
+MAD0
+Text Label 1450 7250 0    50   ~ 0
+MAD1
+Text Label 1450 7150 0    50   ~ 0
+MAD2
+Text Label 3250 7050 2    50   ~ 0
+MAD3
+Text Label 3250 7150 2    50   ~ 0
+MAD4
+Text Label 3250 7250 2    50   ~ 0
+MAD5
+Text Label 3250 6950 2    50   ~ 0
+MAD6
+Text Label 3250 7350 2    50   ~ 0
+MAD7
+Text Label 1450 6650 0    50   ~ 0
+MAD8
+Text GLabel 1450 6950 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 6850 0    50   Input ~ 0
+XWE
+Text GLabel 3250 6750 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EE5CF7
+P 3700 6650
+F 0 "#PWR?" H 3700 6400 50  0001 C CNN
+F 1 "GND" H 3700 6500 50  0000 C CNN
+F 2 "" H 3700 6650 50  0001 C CNN
+F 3 "" H 3700 6650 50  0001 C CNN
+	1    3700 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6650 1700 6650
+Wire Wire Line
+	1450 6750 1700 6750
+Wire Wire Line
+	1450 6850 1700 6850
+Wire Wire Line
+	1450 6950 1700 6950
+Wire Wire Line
+	1450 7050 1700 7050
+Wire Wire Line
+	1450 7150 1700 7150
+Wire Wire Line
+	1450 7250 1700 7250
+Wire Wire Line
+	1300 7350 1700 7350
+Wire Wire Line
+	3000 6750 3250 6750
+Wire Wire Line
+	3000 6850 3250 6850
+Wire Wire Line
+	3000 6950 3250 6950
+Wire Wire Line
+	3000 7050 3250 7050
+Wire Wire Line
+	3000 7150 3250 7150
+Wire Wire Line
+	3000 7250 3250 7250
+Wire Wire Line
+	3000 7350 3250 7350
+Wire Wire Line
+	3000 6650 3700 6650
+$Comp
+L power:GND #PWR?
+U 1 1 62EEBB6B
+P 750 8500
+F 0 "#PWR?" H 750 8250 50  0001 C CNN
+F 1 "GND" H 750 8350 50  0000 C CNN
+F 2 "" H 750 8500 50  0001 C CNN
+F 3 "" H 750 8500 50  0001 C CNN
+	1    750  8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EEBB71
+P 1300 8400
+F 0 "#PWR?" H 1300 8250 50  0001 C CNN
+F 1 "+5VA" H 1200 8550 50  0000 C CNN
+F 2 "" H 1300 8400 50  0001 C CNN
+F 3 "" H 1300 8400 50  0001 C CNN
+	1    1300 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C79
+U 1 1 62EEBB77
+P 1050 8500
+F 0 "C79" V 1000 8550 50  0000 L CNN
+F 1 "22uF" V 1000 8250 50  0000 L CNN
+F 2 "" H 1050 8500 50  0001 C CNN
+F 3 "~" H 1050 8500 50  0001 C CNN
+	1    1050 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U44
+U 1 1 62EEBB7D
+P 2350 8150
+F 0 "U44" H 2000 8700 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 8700 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 8900 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 9000 50  0001 L TNN
+	1    2350 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  8500 950  8500
+Wire Wire Line
+	1300 8400 1300 8500
+Wire Wire Line
+	1150 8500 1300 8500
+Connection ~ 1300 8500
+Text Label 1450 8200 0    50   ~ 0
+MAD0
+Text Label 1450 8400 0    50   ~ 0
+MAD1
+Text Label 1450 8300 0    50   ~ 0
+MAD2
+Text Label 3250 8200 2    50   ~ 0
+MAD3
+Text Label 3250 8300 2    50   ~ 0
+MAD4
+Text Label 3250 8400 2    50   ~ 0
+MAD5
+Text Label 3250 8100 2    50   ~ 0
+MAD6
+Text Label 3250 8500 2    50   ~ 0
+MAD7
+Text Label 1450 7800 0    50   ~ 0
+MAD8
+Text GLabel 1450 8100 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 8000 0    50   Input ~ 0
+XWE
+Text GLabel 3250 7900 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EEBB93
+P 3700 7800
+F 0 "#PWR?" H 3700 7550 50  0001 C CNN
+F 1 "GND" H 3700 7650 50  0000 C CNN
+F 2 "" H 3700 7800 50  0001 C CNN
+F 3 "" H 3700 7800 50  0001 C CNN
+	1    3700 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7800 1700 7800
+Wire Wire Line
+	1450 7900 1700 7900
+Wire Wire Line
+	1450 8000 1700 8000
+Wire Wire Line
+	1450 8100 1700 8100
+Wire Wire Line
+	1450 8200 1700 8200
+Wire Wire Line
+	1450 8300 1700 8300
+Wire Wire Line
+	1450 8400 1700 8400
+Wire Wire Line
+	1300 8500 1700 8500
+Wire Wire Line
+	3000 7900 3250 7900
+Wire Wire Line
+	3000 8000 3250 8000
+Wire Wire Line
+	3000 8100 3250 8100
+Wire Wire Line
+	3000 8200 3250 8200
+Wire Wire Line
+	3000 8300 3250 8300
+Wire Wire Line
+	3000 8400 3250 8400
+Wire Wire Line
+	3000 8500 3250 8500
+Wire Wire Line
+	3000 7800 3700 7800
+$Comp
+L power:GND #PWR?
+U 1 1 62EF46B2
+P 750 9650
+F 0 "#PWR?" H 750 9400 50  0001 C CNN
+F 1 "GND" H 750 9500 50  0000 C CNN
+F 2 "" H 750 9650 50  0001 C CNN
+F 3 "" H 750 9650 50  0001 C CNN
+	1    750  9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62EF46B8
+P 1300 9550
+F 0 "#PWR?" H 1300 9400 50  0001 C CNN
+F 1 "+5VA" H 1200 9700 50  0000 C CNN
+F 2 "" H 1300 9550 50  0001 C CNN
+F 3 "" H 1300 9550 50  0001 C CNN
+	1    1300 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C80
+U 1 1 62EF46BE
+P 1050 9650
+F 0 "C80" V 1000 9700 50  0000 L CNN
+F 1 "22uF" V 1000 9400 50  0000 L CNN
+F 2 "" H 1050 9650 50  0001 C CNN
+F 3 "~" H 1050 9650 50  0001 C CNN
+	1    1050 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U45
+U 1 1 62EF46C4
+P 2350 9300
+F 0 "U45" H 2000 9850 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 9850 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 10050 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 10150 50  0001 L TNN
+	1    2350 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  9650 950  9650
+Wire Wire Line
+	1300 9550 1300 9650
+Wire Wire Line
+	1150 9650 1300 9650
+Connection ~ 1300 9650
+Text Label 1450 9350 0    50   ~ 0
+MAD0
+Text Label 1450 9550 0    50   ~ 0
+MAD1
+Text Label 1450 9450 0    50   ~ 0
+MAD2
+Text Label 3250 9350 2    50   ~ 0
+MAD3
+Text Label 3250 9450 2    50   ~ 0
+MAD4
+Text Label 3250 9550 2    50   ~ 0
+MAD5
+Text Label 3250 9250 2    50   ~ 0
+MAD6
+Text Label 3250 9650 2    50   ~ 0
+MAD7
+Text Label 1450 8950 0    50   ~ 0
+MAD8
+Text GLabel 1450 9250 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 9150 0    50   Input ~ 0
+XWE
+Text GLabel 3250 9050 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62EF46DA
+P 3700 8950
+F 0 "#PWR?" H 3700 8700 50  0001 C CNN
+F 1 "GND" H 3700 8800 50  0000 C CNN
+F 2 "" H 3700 8950 50  0001 C CNN
+F 3 "" H 3700 8950 50  0001 C CNN
+	1    3700 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 8950 1700 8950
+Wire Wire Line
+	1450 9050 1700 9050
+Wire Wire Line
+	1450 9150 1700 9150
+Wire Wire Line
+	1450 9250 1700 9250
+Wire Wire Line
+	1450 9350 1700 9350
+Wire Wire Line
+	1450 9450 1700 9450
+Wire Wire Line
+	1450 9550 1700 9550
+Wire Wire Line
+	1300 9650 1700 9650
+Wire Wire Line
+	3000 9050 3250 9050
+Wire Wire Line
+	3000 9150 3250 9150
+Wire Wire Line
+	3000 9250 3250 9250
+Wire Wire Line
+	3000 9350 3250 9350
+Wire Wire Line
+	3000 9450 3250 9450
+Wire Wire Line
+	3000 9550 3250 9550
+Wire Wire Line
+	3000 9650 3250 9650
+Wire Wire Line
+	3000 8950 3700 8950
+$Comp
+L power:GND #PWR?
+U 1 1 62F11DA4
+P 750 1600
+F 0 "#PWR?" H 750 1350 50  0001 C CNN
+F 1 "GND" H 750 1450 50  0000 C CNN
+F 2 "" H 750 1600 50  0001 C CNN
+F 3 "" H 750 1600 50  0001 C CNN
+	1    750  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62F11DAA
+P 1300 1500
+F 0 "#PWR?" H 1300 1350 50  0001 C CNN
+F 1 "+5VA" H 1200 1650 50  0000 C CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "" H 1300 1500 50  0001 C CNN
+	1    1300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C41
+U 1 1 62F11DB0
+P 1050 1600
+F 0 "C41" V 1000 1650 50  0000 L CNN
+F 1 "22uF" V 1000 1350 50  0000 L CNN
+F 2 "" H 1050 1600 50  0001 C CNN
+F 3 "~" H 1050 1600 50  0001 C CNN
+	1    1050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U32
+U 1 1 62F11DB6
+P 2350 1250
+F 0 "U32" H 2000 1800 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 2200 1800 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2000 2000 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 2000 2100 50  0001 L TNN
+	1    2350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1600 950  1600
+Wire Wire Line
+	1300 1500 1300 1600
+Wire Wire Line
+	1150 1600 1300 1600
+Connection ~ 1300 1600
+Text Label 1450 1300 0    50   ~ 0
+MAD0
+Text Label 1450 1500 0    50   ~ 0
+MAD1
+Text Label 1450 1400 0    50   ~ 0
+MAD2
+Text Label 3250 1300 2    50   ~ 0
+MAD3
+Text Label 3250 1400 2    50   ~ 0
+MAD4
+Text Label 3250 1500 2    50   ~ 0
+MAD5
+Text Label 3250 1200 2    50   ~ 0
+MAD6
+Text Label 3250 1600 2    50   ~ 0
+MAD7
+Text Label 1450 900  0    50   ~ 0
+MAD8
+Text GLabel 1450 1200 0    50   Input ~ 0
+XRAS0
+Text GLabel 1450 1100 0    50   Input ~ 0
+XWE
+Text GLabel 3250 1000 2    50   Input ~ 0
+XCAS0H
+$Comp
+L power:GND #PWR?
+U 1 1 62F11DCC
+P 3700 900
+F 0 "#PWR?" H 3700 650 50  0001 C CNN
+F 1 "GND" H 3700 750 50  0000 C CNN
+F 2 "" H 3700 900 50  0001 C CNN
+F 3 "" H 3700 900 50  0001 C CNN
+	1    3700 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 900  1700 900 
+Wire Wire Line
+	1450 1000 1700 1000
+Wire Wire Line
+	1450 1100 1700 1100
+Wire Wire Line
+	1450 1200 1700 1200
+Wire Wire Line
+	1450 1300 1700 1300
+Wire Wire Line
+	1450 1400 1700 1400
+Wire Wire Line
+	1450 1500 1700 1500
+Wire Wire Line
+	1300 1600 1700 1600
+Wire Wire Line
+	3000 1000 3250 1000
+Wire Wire Line
+	3000 1100 3250 1100
+Wire Wire Line
+	3000 1200 3250 1200
+Wire Wire Line
+	3000 1300 3250 1300
+Wire Wire Line
+	3000 1400 3250 1400
+Wire Wire Line
+	3000 1500 3250 1500
+Wire Wire Line
+	3000 1600 3250 1600
+Wire Wire Line
+	3000 900  3700 900 
+$Comp
+L power:GND #PWR?
+U 1 1 62FADAC5
+P 4550 2750
+F 0 "#PWR?" H 4550 2500 50  0001 C CNN
+F 1 "GND" H 4550 2600 50  0000 C CNN
+F 2 "" H 4550 2750 50  0001 C CNN
+F 3 "" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADACB
+P 5100 2650
+F 0 "#PWR?" H 5100 2500 50  0001 C CNN
+F 1 "+5VA" H 5000 2800 50  0000 C CNN
+F 2 "" H 5100 2650 50  0001 C CNN
+F 3 "" H 5100 2650 50  0001 C CNN
+	1    5100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 62FADAD1
+P 4850 2750
+F 0 "C27" V 4800 2800 50  0000 L CNN
+F 1 "22uF" V 4800 2500 50  0000 L CNN
+F 2 "" H 4850 2750 50  0001 C CNN
+F 3 "~" H 4850 2750 50  0001 C CNN
+	1    4850 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U17
+U 1 1 62FADAD7
+P 6150 2400
+F 0 "U17" H 5800 2950 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 2950 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 3150 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 3250 50  0001 L TNN
+	1    6150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2750 4750 2750
+Wire Wire Line
+	5100 2650 5100 2750
+Wire Wire Line
+	4950 2750 5100 2750
+Connection ~ 5100 2750
+Text Label 5250 2450 0    50   ~ 0
+MAD0
+Text Label 5250 2650 0    50   ~ 0
+MAD1
+Text Label 5250 2550 0    50   ~ 0
+MAD2
+Text Label 7050 2450 2    50   ~ 0
+MAD3
+Text Label 7050 2550 2    50   ~ 0
+MAD4
+Text Label 7050 2650 2    50   ~ 0
+MAD5
+Text Label 7050 2350 2    50   ~ 0
+MAD6
+Text Label 7050 2750 2    50   ~ 0
+MAD7
+Text Label 5250 2050 0    50   ~ 0
+MAD8
+Text GLabel 5250 2350 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 2250 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADAED
+P 7500 2050
+F 0 "#PWR?" H 7500 1800 50  0001 C CNN
+F 1 "GND" H 7500 1900 50  0000 C CNN
+F 2 "" H 7500 2050 50  0001 C CNN
+F 3 "" H 7500 2050 50  0001 C CNN
+	1    7500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2050 5500 2050
+Wire Wire Line
+	5250 2150 5500 2150
+Wire Wire Line
+	5250 2250 5500 2250
+Wire Wire Line
+	5250 2350 5500 2350
+Wire Wire Line
+	5250 2450 5500 2450
+Wire Wire Line
+	5250 2550 5500 2550
+Wire Wire Line
+	5250 2650 5500 2650
+Wire Wire Line
+	5100 2750 5500 2750
+Wire Wire Line
+	6800 2150 7050 2150
+Wire Wire Line
+	6800 2250 7050 2250
+Wire Wire Line
+	6800 2350 7050 2350
+Wire Wire Line
+	6800 2450 7050 2450
+Wire Wire Line
+	6800 2550 7050 2550
+Wire Wire Line
+	6800 2650 7050 2650
+Wire Wire Line
+	6800 2750 7050 2750
+Wire Wire Line
+	6800 2050 7500 2050
+$Comp
+L power:GND #PWR?
+U 1 1 62FADB03
+P 4550 3900
+F 0 "#PWR?" H 4550 3650 50  0001 C CNN
+F 1 "GND" H 4550 3750 50  0000 C CNN
+F 2 "" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADB09
+P 5100 3800
+F 0 "#PWR?" H 5100 3650 50  0001 C CNN
+F 1 "+5VA" H 5000 3950 50  0000 C CNN
+F 2 "" H 5100 3800 50  0001 C CNN
+F 3 "" H 5100 3800 50  0001 C CNN
+	1    5100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 62FADB0F
+P 4850 3900
+F 0 "C28" V 4800 3950 50  0000 L CNN
+F 1 "22uF" V 4800 3650 50  0000 L CNN
+F 2 "" H 4850 3900 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U18
+U 1 1 62FADB15
+P 6150 3550
+F 0 "U18" H 5800 4100 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 4100 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 4300 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 4400 50  0001 L TNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3900 4750 3900
+Wire Wire Line
+	5100 3800 5100 3900
+Wire Wire Line
+	4950 3900 5100 3900
+Connection ~ 5100 3900
+Text Label 5250 3600 0    50   ~ 0
+MAD0
+Text Label 5250 3800 0    50   ~ 0
+MAD1
+Text Label 5250 3700 0    50   ~ 0
+MAD2
+Text Label 7050 3600 2    50   ~ 0
+MAD3
+Text Label 7050 3700 2    50   ~ 0
+MAD4
+Text Label 7050 3800 2    50   ~ 0
+MAD5
+Text Label 7050 3500 2    50   ~ 0
+MAD6
+Text Label 7050 3900 2    50   ~ 0
+MAD7
+Text Label 5250 3200 0    50   ~ 0
+MAD8
+Text GLabel 5250 3500 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 3400 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADB2B
+P 7500 3200
+F 0 "#PWR?" H 7500 2950 50  0001 C CNN
+F 1 "GND" H 7500 3050 50  0000 C CNN
+F 2 "" H 7500 3200 50  0001 C CNN
+F 3 "" H 7500 3200 50  0001 C CNN
+	1    7500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3200 5500 3200
+Wire Wire Line
+	5250 3300 5500 3300
+Wire Wire Line
+	5250 3400 5500 3400
+Wire Wire Line
+	5250 3500 5500 3500
+Wire Wire Line
+	5250 3600 5500 3600
+Wire Wire Line
+	5250 3700 5500 3700
+Wire Wire Line
+	5250 3800 5500 3800
+Wire Wire Line
+	5100 3900 5500 3900
+Wire Wire Line
+	6800 3300 7050 3300
+Wire Wire Line
+	6800 3400 7050 3400
+Wire Wire Line
+	6800 3500 7050 3500
+Wire Wire Line
+	6800 3600 7050 3600
+Wire Wire Line
+	6800 3700 7050 3700
+Wire Wire Line
+	6800 3800 7050 3800
+Wire Wire Line
+	6800 3900 7050 3900
+Wire Wire Line
+	6800 3200 7500 3200
+$Comp
+L power:GND #PWR?
+U 1 1 62FADB41
+P 4550 5050
+F 0 "#PWR?" H 4550 4800 50  0001 C CNN
+F 1 "GND" H 4550 4900 50  0000 C CNN
+F 2 "" H 4550 5050 50  0001 C CNN
+F 3 "" H 4550 5050 50  0001 C CNN
+	1    4550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADB47
+P 5100 4950
+F 0 "#PWR?" H 5100 4800 50  0001 C CNN
+F 1 "+5VA" H 5000 5100 50  0000 C CNN
+F 2 "" H 5100 4950 50  0001 C CNN
+F 3 "" H 5100 4950 50  0001 C CNN
+	1    5100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 62FADB4D
+P 4850 5050
+F 0 "C30" V 4800 5100 50  0000 L CNN
+F 1 "22uF" V 4800 4800 50  0000 L CNN
+F 2 "" H 4850 5050 50  0001 C CNN
+F 3 "~" H 4850 5050 50  0001 C CNN
+	1    4850 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U24
+U 1 1 62FADB53
+P 6150 4700
+F 0 "U24" H 5800 5250 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 5250 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 5450 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 5550 50  0001 L TNN
+	1    6150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5050 4750 5050
+Wire Wire Line
+	5100 4950 5100 5050
+Wire Wire Line
+	4950 5050 5100 5050
+Connection ~ 5100 5050
+Text Label 5250 4750 0    50   ~ 0
+MAD0
+Text Label 5250 4950 0    50   ~ 0
+MAD1
+Text Label 5250 4850 0    50   ~ 0
+MAD2
+Text Label 7050 4750 2    50   ~ 0
+MAD3
+Text Label 7050 4850 2    50   ~ 0
+MAD4
+Text Label 7050 4950 2    50   ~ 0
+MAD5
+Text Label 7050 4650 2    50   ~ 0
+MAD6
+Text Label 7050 5050 2    50   ~ 0
+MAD7
+Text Label 5250 4350 0    50   ~ 0
+MAD8
+Text GLabel 5250 4650 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 4550 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADB69
+P 7500 4350
+F 0 "#PWR?" H 7500 4100 50  0001 C CNN
+F 1 "GND" H 7500 4200 50  0000 C CNN
+F 2 "" H 7500 4350 50  0001 C CNN
+F 3 "" H 7500 4350 50  0001 C CNN
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4350 5500 4350
+Wire Wire Line
+	5250 4450 5500 4450
+Wire Wire Line
+	5250 4550 5500 4550
+Wire Wire Line
+	5250 4650 5500 4650
+Wire Wire Line
+	5250 4750 5500 4750
+Wire Wire Line
+	5250 4850 5500 4850
+Wire Wire Line
+	5250 4950 5500 4950
+Wire Wire Line
+	5100 5050 5500 5050
+Wire Wire Line
+	6800 4450 7050 4450
+Wire Wire Line
+	6800 4550 7050 4550
+Wire Wire Line
+	6800 4650 7050 4650
+Wire Wire Line
+	6800 4750 7050 4750
+Wire Wire Line
+	6800 4850 7050 4850
+Wire Wire Line
+	6800 4950 7050 4950
+Wire Wire Line
+	6800 5050 7050 5050
+Wire Wire Line
+	6800 4350 7500 4350
+$Comp
+L power:GND #PWR?
+U 1 1 62FADB7F
+P 4550 6200
+F 0 "#PWR?" H 4550 5950 50  0001 C CNN
+F 1 "GND" H 4550 6050 50  0000 C CNN
+F 2 "" H 4550 6200 50  0001 C CNN
+F 3 "" H 4550 6200 50  0001 C CNN
+	1    4550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADB85
+P 5100 6100
+F 0 "#PWR?" H 5100 5950 50  0001 C CNN
+F 1 "+5VA" H 5000 6250 50  0000 C CNN
+F 2 "" H 5100 6100 50  0001 C CNN
+F 3 "" H 5100 6100 50  0001 C CNN
+	1    5100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 62FADB8B
+P 4850 6200
+F 0 "C36" V 4800 6250 50  0000 L CNN
+F 1 "22uF" V 4800 5950 50  0000 L CNN
+F 2 "" H 4850 6200 50  0001 C CNN
+F 3 "~" H 4850 6200 50  0001 C CNN
+	1    4850 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U25
+U 1 1 62FADB91
+P 6150 5850
+F 0 "U25" H 5800 6400 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 6400 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 6600 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 6700 50  0001 L TNN
+	1    6150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6200 4750 6200
+Wire Wire Line
+	5100 6100 5100 6200
+Wire Wire Line
+	4950 6200 5100 6200
+Connection ~ 5100 6200
+Text Label 5250 5900 0    50   ~ 0
+MAD0
+Text Label 5250 6100 0    50   ~ 0
+MAD1
+Text Label 5250 6000 0    50   ~ 0
+MAD2
+Text Label 7050 5900 2    50   ~ 0
+MAD3
+Text Label 7050 6000 2    50   ~ 0
+MAD4
+Text Label 7050 6100 2    50   ~ 0
+MAD5
+Text Label 7050 5800 2    50   ~ 0
+MAD6
+Text Label 7050 6200 2    50   ~ 0
+MAD7
+Text Label 5250 5500 0    50   ~ 0
+MAD8
+Text GLabel 5250 5800 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 5700 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADBA7
+P 7500 5500
+F 0 "#PWR?" H 7500 5250 50  0001 C CNN
+F 1 "GND" H 7500 5350 50  0000 C CNN
+F 2 "" H 7500 5500 50  0001 C CNN
+F 3 "" H 7500 5500 50  0001 C CNN
+	1    7500 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5500 5500 5500
+Wire Wire Line
+	5250 5600 5500 5600
+Wire Wire Line
+	5250 5700 5500 5700
+Wire Wire Line
+	5250 5800 5500 5800
+Wire Wire Line
+	5250 5900 5500 5900
+Wire Wire Line
+	5250 6000 5500 6000
+Wire Wire Line
+	5250 6100 5500 6100
+Wire Wire Line
+	5100 6200 5500 6200
+Wire Wire Line
+	6800 5600 7050 5600
+Wire Wire Line
+	6800 5700 7050 5700
+Wire Wire Line
+	6800 5800 7050 5800
+Wire Wire Line
+	6800 5900 7050 5900
+Wire Wire Line
+	6800 6000 7050 6000
+Wire Wire Line
+	6800 6100 7050 6100
+Wire Wire Line
+	6800 6200 7050 6200
+Wire Wire Line
+	6800 5500 7500 5500
+$Comp
+L power:GND #PWR?
+U 1 1 62FADBBD
+P 4550 7350
+F 0 "#PWR?" H 4550 7100 50  0001 C CNN
+F 1 "GND" H 4550 7200 50  0000 C CNN
+F 2 "" H 4550 7350 50  0001 C CNN
+F 3 "" H 4550 7350 50  0001 C CNN
+	1    4550 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADBC3
+P 5100 7250
+F 0 "#PWR?" H 5100 7100 50  0001 C CNN
+F 1 "+5VA" H 5000 7400 50  0000 C CNN
+F 2 "" H 5100 7250 50  0001 C CNN
+F 3 "" H 5100 7250 50  0001 C CNN
+	1    5100 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 62FADBC9
+P 4850 7350
+F 0 "C37" V 4800 7400 50  0000 L CNN
+F 1 "22uF" V 4800 7100 50  0000 L CNN
+F 2 "" H 4850 7350 50  0001 C CNN
+F 3 "~" H 4850 7350 50  0001 C CNN
+	1    4850 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U28
+U 1 1 62FADBCF
+P 6150 7000
+F 0 "U28" H 5800 7550 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 7550 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 7750 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 7850 50  0001 L TNN
+	1    6150 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7350 4750 7350
+Wire Wire Line
+	5100 7250 5100 7350
+Wire Wire Line
+	4950 7350 5100 7350
+Connection ~ 5100 7350
+Text Label 5250 7050 0    50   ~ 0
+MAD0
+Text Label 5250 7250 0    50   ~ 0
+MAD1
+Text Label 5250 7150 0    50   ~ 0
+MAD2
+Text Label 7050 7050 2    50   ~ 0
+MAD3
+Text Label 7050 7150 2    50   ~ 0
+MAD4
+Text Label 7050 7250 2    50   ~ 0
+MAD5
+Text Label 7050 6950 2    50   ~ 0
+MAD6
+Text Label 7050 7350 2    50   ~ 0
+MAD7
+Text Label 5250 6650 0    50   ~ 0
+MAD8
+Text GLabel 5250 6950 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 6850 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADBE5
+P 7500 6650
+F 0 "#PWR?" H 7500 6400 50  0001 C CNN
+F 1 "GND" H 7500 6500 50  0000 C CNN
+F 2 "" H 7500 6650 50  0001 C CNN
+F 3 "" H 7500 6650 50  0001 C CNN
+	1    7500 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6650 5500 6650
+Wire Wire Line
+	5250 6750 5500 6750
+Wire Wire Line
+	5250 6850 5500 6850
+Wire Wire Line
+	5250 6950 5500 6950
+Wire Wire Line
+	5250 7050 5500 7050
+Wire Wire Line
+	5250 7150 5500 7150
+Wire Wire Line
+	5250 7250 5500 7250
+Wire Wire Line
+	5100 7350 5500 7350
+Wire Wire Line
+	6800 6750 7050 6750
+Wire Wire Line
+	6800 6850 7050 6850
+Wire Wire Line
+	6800 6950 7050 6950
+Wire Wire Line
+	6800 7050 7050 7050
+Wire Wire Line
+	6800 7150 7050 7150
+Wire Wire Line
+	6800 7250 7050 7250
+Wire Wire Line
+	6800 7350 7050 7350
+Wire Wire Line
+	6800 6650 7500 6650
+$Comp
+L power:GND #PWR?
+U 1 1 62FADBFB
+P 4550 8500
+F 0 "#PWR?" H 4550 8250 50  0001 C CNN
+F 1 "GND" H 4550 8350 50  0000 C CNN
+F 2 "" H 4550 8500 50  0001 C CNN
+F 3 "" H 4550 8500 50  0001 C CNN
+	1    4550 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADC01
+P 5100 8400
+F 0 "#PWR?" H 5100 8250 50  0001 C CNN
+F 1 "+5VA" H 5000 8550 50  0000 C CNN
+F 2 "" H 5100 8400 50  0001 C CNN
+F 3 "" H 5100 8400 50  0001 C CNN
+	1    5100 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C38
+U 1 1 62FADC07
+P 4850 8500
+F 0 "C38" V 4800 8550 50  0000 L CNN
+F 1 "22uF" V 4800 8250 50  0000 L CNN
+F 2 "" H 4850 8500 50  0001 C CNN
+F 3 "~" H 4850 8500 50  0001 C CNN
+	1    4850 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U29
+U 1 1 62FADC0D
+P 6150 8150
+F 0 "U29" H 5800 8700 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 8700 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 8900 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 9000 50  0001 L TNN
+	1    6150 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 8500 4750 8500
+Wire Wire Line
+	5100 8400 5100 8500
+Wire Wire Line
+	4950 8500 5100 8500
+Connection ~ 5100 8500
+Text Label 5250 8200 0    50   ~ 0
+MAD0
+Text Label 5250 8400 0    50   ~ 0
+MAD1
+Text Label 5250 8300 0    50   ~ 0
+MAD2
+Text Label 7050 8200 2    50   ~ 0
+MAD3
+Text Label 7050 8300 2    50   ~ 0
+MAD4
+Text Label 7050 8400 2    50   ~ 0
+MAD5
+Text Label 7050 8100 2    50   ~ 0
+MAD6
+Text Label 7050 8500 2    50   ~ 0
+MAD7
+Text Label 5250 7800 0    50   ~ 0
+MAD8
+Text GLabel 5250 8100 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 8000 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADC23
+P 7500 7800
+F 0 "#PWR?" H 7500 7550 50  0001 C CNN
+F 1 "GND" H 7500 7650 50  0000 C CNN
+F 2 "" H 7500 7800 50  0001 C CNN
+F 3 "" H 7500 7800 50  0001 C CNN
+	1    7500 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7800 5500 7800
+Wire Wire Line
+	5250 7900 5500 7900
+Wire Wire Line
+	5250 8000 5500 8000
+Wire Wire Line
+	5250 8100 5500 8100
+Wire Wire Line
+	5250 8200 5500 8200
+Wire Wire Line
+	5250 8300 5500 8300
+Wire Wire Line
+	5250 8400 5500 8400
+Wire Wire Line
+	5100 8500 5500 8500
+Wire Wire Line
+	6800 7900 7050 7900
+Wire Wire Line
+	6800 8000 7050 8000
+Wire Wire Line
+	6800 8100 7050 8100
+Wire Wire Line
+	6800 8200 7050 8200
+Wire Wire Line
+	6800 8300 7050 8300
+Wire Wire Line
+	6800 8400 7050 8400
+Wire Wire Line
+	6800 8500 7050 8500
+Wire Wire Line
+	6800 7800 7500 7800
+$Comp
+L power:GND #PWR?
+U 1 1 62FADC39
+P 4550 9650
+F 0 "#PWR?" H 4550 9400 50  0001 C CNN
+F 1 "GND" H 4550 9500 50  0000 C CNN
+F 2 "" H 4550 9650 50  0001 C CNN
+F 3 "" H 4550 9650 50  0001 C CNN
+	1    4550 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADC3F
+P 5100 9550
+F 0 "#PWR?" H 5100 9400 50  0001 C CNN
+F 1 "+5VA" H 5000 9700 50  0000 C CNN
+F 2 "" H 5100 9550 50  0001 C CNN
+F 3 "" H 5100 9550 50  0001 C CNN
+	1    5100 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C39
+U 1 1 62FADC45
+P 4850 9650
+F 0 "C39" V 4800 9700 50  0000 L CNN
+F 1 "22uF" V 4800 9400 50  0000 L CNN
+F 2 "" H 4850 9650 50  0001 C CNN
+F 3 "~" H 4850 9650 50  0001 C CNN
+	1    4850 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U30
+U 1 1 62FADC4B
+P 6150 9300
+F 0 "U30" H 5800 9850 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 9850 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 10050 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 10150 50  0001 L TNN
+	1    6150 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 9650 4750 9650
+Wire Wire Line
+	5100 9550 5100 9650
+Wire Wire Line
+	4950 9650 5100 9650
+Connection ~ 5100 9650
+Text Label 5250 9350 0    50   ~ 0
+MAD0
+Text Label 5250 9550 0    50   ~ 0
+MAD1
+Text Label 5250 9450 0    50   ~ 0
+MAD2
+Text Label 7050 9350 2    50   ~ 0
+MAD3
+Text Label 7050 9450 2    50   ~ 0
+MAD4
+Text Label 7050 9550 2    50   ~ 0
+MAD5
+Text Label 7050 9250 2    50   ~ 0
+MAD6
+Text Label 7050 9650 2    50   ~ 0
+MAD7
+Text Label 5250 8950 0    50   ~ 0
+MAD8
+Text GLabel 5250 9250 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 9150 0    50   Input ~ 0
+XWE
+$Comp
+L power:GND #PWR?
+U 1 1 62FADC61
+P 7500 8950
+F 0 "#PWR?" H 7500 8700 50  0001 C CNN
+F 1 "GND" H 7500 8800 50  0000 C CNN
+F 2 "" H 7500 8950 50  0001 C CNN
+F 3 "" H 7500 8950 50  0001 C CNN
+	1    7500 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 8950 5500 8950
+Wire Wire Line
+	5250 9050 5500 9050
+Wire Wire Line
+	5250 9150 5500 9150
+Wire Wire Line
+	5250 9250 5500 9250
+Wire Wire Line
+	5250 9350 5500 9350
+Wire Wire Line
+	5250 9450 5500 9450
+Wire Wire Line
+	5250 9550 5500 9550
+Wire Wire Line
+	5100 9650 5500 9650
+Wire Wire Line
+	6800 9050 7050 9050
+Wire Wire Line
+	6800 9150 7050 9150
+Wire Wire Line
+	6800 9250 7050 9250
+Wire Wire Line
+	6800 9350 7050 9350
+Wire Wire Line
+	6800 9450 7050 9450
+Wire Wire Line
+	6800 9550 7050 9550
+Wire Wire Line
+	6800 9650 7050 9650
+Wire Wire Line
+	6800 8950 7500 8950
+$Comp
+L power:GND #PWR?
+U 1 1 62FADC77
+P 4550 1600
+F 0 "#PWR?" H 4550 1350 50  0001 C CNN
+F 1 "GND" H 4550 1450 50  0000 C CNN
+F 2 "" H 4550 1600 50  0001 C CNN
+F 3 "" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 62FADC7D
+P 5100 1500
+F 0 "#PWR?" H 5100 1350 50  0001 C CNN
+F 1 "+5VA" H 5000 1650 50  0000 C CNN
+F 2 "" H 5100 1500 50  0001 C CNN
+F 3 "" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 62FADC83
+P 4850 1600
+F 0 "C26" V 4800 1650 50  0000 L CNN
+F 1 "22uF" V 4800 1350 50  0000 L CNN
+F 2 "" H 4850 1600 50  0001 C CNN
+F 3 "~" H 4850 1600 50  0001 C CNN
+	1    4850 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L dram-256Kx1:DRAM_256K×1_PHY U16
+U 1 1 62FADC89
+P 6150 1250
+F 0 "U16" H 5800 1800 50  0000 L TNN
+F 1 "DRAM_256K×1_PHY" H 6000 1800 50  0000 L TNB
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5800 2000 50  0001 L TNN
+F 3 "https://www.digchip.com/datasheets/download_datasheet.php?id=1017000&part-number=UD61256" H 5800 2100 50  0001 L TNN
+	1    6150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1600 4750 1600
+Wire Wire Line
+	5100 1500 5100 1600
+Wire Wire Line
+	4950 1600 5100 1600
+Connection ~ 5100 1600
+Text Label 5250 1300 0    50   ~ 0
+MAD0
+Text Label 5250 1500 0    50   ~ 0
+MAD1
+Text Label 5250 1400 0    50   ~ 0
+MAD2
+Text Label 7050 1300 2    50   ~ 0
+MAD3
+Text Label 7050 1400 2    50   ~ 0
+MAD4
+Text Label 7050 1500 2    50   ~ 0
+MAD5
+Text Label 7050 1200 2    50   ~ 0
+MAD6
+Text Label 7050 1600 2    50   ~ 0
+MAD7
+Text Label 5250 900  0    50   ~ 0
+MAD8
+Text GLabel 5250 1200 0    50   Input ~ 0
+XRAS0
+Text GLabel 5250 1100 0    50   Input ~ 0
+XWE
+Text GLabel 7050 1000 2    50   Input ~ 0
+XCAS0L
+$Comp
+L power:GND #PWR?
+U 1 1 62FADC9F
+P 7500 900
+F 0 "#PWR?" H 7500 650 50  0001 C CNN
+F 1 "GND" H 7500 750 50  0000 C CNN
+F 2 "" H 7500 900 50  0001 C CNN
+F 3 "" H 7500 900 50  0001 C CNN
+	1    7500 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 900  5500 900 
+Wire Wire Line
+	5250 1000 5500 1000
+Wire Wire Line
+	5250 1100 5500 1100
+Wire Wire Line
+	5250 1200 5500 1200
+Wire Wire Line
+	5250 1300 5500 1300
+Wire Wire Line
+	5250 1400 5500 1400
+Wire Wire Line
+	5250 1500 5500 1500
+Wire Wire Line
+	5100 1600 5500 1600
+Wire Wire Line
+	6800 1000 7050 1000
+Wire Wire Line
+	6800 1100 7050 1100
+Wire Wire Line
+	6800 1200 7050 1200
+Wire Wire Line
+	6800 1300 7050 1300
+Wire Wire Line
+	6800 1400 7050 1400
+Wire Wire Line
+	6800 1500 7050 1500
+Wire Wire Line
+	6800 1600 7050 1600
+Wire Wire Line
+	6800 900  7500 900 
+Text GLabel 7050 2150 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 3300 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 4450 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 5600 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 6750 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 7900 2    50   Input ~ 0
+XCAS0L
+Text GLabel 7050 9050 2    50   Input ~ 0
+XCAS0L
+Text Label 3250 1100 2    50   ~ 0
+MD8
+Text Label 3250 2250 2    50   ~ 0
+MD9
+Text Label 3250 3400 2    50   ~ 0
+MD10
+Text Label 3250 4550 2    50   ~ 0
+MD11
+Text Label 3250 5700 2    50   ~ 0
+MD12
+Text Label 3250 6850 2    50   ~ 0
+MD13
+Text Label 3250 8000 2    50   ~ 0
+MD14
+Text Label 3250 9150 2    50   ~ 0
+MD15
+Text Label 1450 1000 0    50   ~ 0
+MD8
+Text Label 1450 2150 0    50   ~ 0
+MD9
+Text Label 1450 3300 0    50   ~ 0
+MD10
+Text Label 1450 4450 0    50   ~ 0
+MD11
+Text Label 1450 5600 0    50   ~ 0
+MD12
+Text Label 1450 6750 0    50   ~ 0
+MD13
+Text Label 1450 7900 0    50   ~ 0
+MD14
+Text Label 1450 9050 0    50   ~ 0
+MD15
+Text Label 5250 1000 0    50   ~ 0
+MD0
+Text Label 5250 2150 0    50   ~ 0
+MD1
+Text Label 5250 3300 0    50   ~ 0
+MD2
+Text Label 5250 4450 0    50   ~ 0
+MD3
+Text Label 5250 5600 0    50   ~ 0
+MD4
+Text Label 5250 6750 0    50   ~ 0
+MD5
+Text Label 5250 7900 0    50   ~ 0
+MD6
+Text Label 5250 9050 0    50   ~ 0
+MD7
+Text Label 7050 1100 2    50   ~ 0
+MD0
+Text Label 7050 2250 2    50   ~ 0
+MD1
+Text Label 7050 3400 2    50   ~ 0
+MD2
+Text Label 7050 4550 2    50   ~ 0
+MD3
+Text Label 7050 5700 2    50   ~ 0
+MD4
+Text Label 7050 6850 2    50   ~ 0
+MD5
+Text Label 7050 8000 2    50   ~ 0
+MD6
+Text Label 7050 9150 2    50   ~ 0
+MD7
+$EndSCHEMATC
