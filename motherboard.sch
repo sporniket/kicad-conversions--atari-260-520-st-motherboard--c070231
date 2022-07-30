@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-22"
+Date "2022-07-30"
 Rev "0"
 Comp ""
 Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
@@ -33,4 +33,12 @@ F1 "subsheet_101.sch" 50
 $EndSheet
 Text Notes 6950 2750 0    50   ~ 0
 Page 3
+$Sheet
+S 1000 3050 6300 150 
+U 62E3A54E
+F0 "U31-Shifter ; J6-Video port" 71
+F1 "subsheet_102.sch" 50
+$EndSheet
+Text Notes 6950 3150 0    50   ~ 0
+Page 4
 $EndSCHEMATC

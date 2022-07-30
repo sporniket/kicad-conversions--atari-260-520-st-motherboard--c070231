@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-22"
+Date "2022-07-30"
 Rev "0"
 Comp ""
 Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
@@ -19,12 +19,12 @@ Text Label 2500 10100 2    50   ~ 0
 MD[0..15]
 Wire Bus Line
 	2500 10100 2750 10100
-Text GLabel 1250 10100 2    50   Input ~ 0
+Text GLabel 1250 10100 0    50   Input ~ 0
 MADDR[0..8]
-Text Label 1000 10100 2    50   ~ 0
+Text Label 1500 10100 0    50   ~ 0
 MAD[0..8]
 Wire Bus Line
-	1000 10100 1250 10100
+	1500 10100 1250 10100
 $Comp
 L power:+5V #PWR0112
 U 1 1 62DBBBCC
