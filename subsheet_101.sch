@@ -5,7 +5,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 3 4
 Title "Converted schematics of Atari 260/520 ST"
-Date "2022-07-30"
+Date "2022-09-08"
 Rev "0"
 Comp ""
 Comment1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231"
