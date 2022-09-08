@@ -32,7 +32,7 @@ U 1 1 62E3E001
 P 1300 2650
 F 0 "R127" V 1250 2750 50  0000 L CNN
 F 1 "10K" V 1250 2400 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 1300 2650 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 1300 2650 50  0001 C CNN
 F 3 "~" H 1300 2650 50  0001 C CNN
 	1    1300 2650
 	0    1    1    0   
@@ -107,7 +107,7 @@ U 1 1 62EA6652
 P 3400 3650
 F 0 "R61" V 3450 3750 50  0000 L CNN
 F 1 "15K" V 3450 3400 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 3650 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 3650 50  0001 C CNN
 F 3 "~" H 3400 3650 50  0001 C CNN
 	1    3400 3650
 	0    -1   -1   0   
@@ -118,7 +118,7 @@ U 1 1 62EA7727
 P 3400 3750
 F 0 "R60" V 3450 3850 50  0000 L CNN
 F 1 "7K5" V 3450 3500 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 3750 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 3750 50  0001 C CNN
 F 3 "~" H 3400 3750 50  0001 C CNN
 	1    3400 3750
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ U 1 1 62EA79AC
 P 3400 3850
 F 0 "R59" V 3450 3950 50  0000 L CNN
 F 1 "3K6" V 3450 3600 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 3850 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 3850 50  0001 C CNN
 F 3 "~" H 3400 3850 50  0001 C CNN
 	1    3400 3850
 	0    -1   -1   0   
@@ -140,7 +140,7 @@ U 1 1 62EA9A67
 P 3400 3950
 F 0 "R58" V 3450 4050 50  0000 L CNN
 F 1 "15K" V 3450 3700 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 3950 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 3950 50  0001 C CNN
 F 3 "~" H 3400 3950 50  0001 C CNN
 	1    3400 3950
 	0    -1   -1   0   
@@ -151,7 +151,7 @@ U 1 1 62EA9A6D
 P 3400 4050
 F 0 "R57" V 3450 4150 50  0000 L CNN
 F 1 "7K5" V 3450 3800 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 4050 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 4050 50  0001 C CNN
 F 3 "~" H 3400 4050 50  0001 C CNN
 	1    3400 4050
 	0    -1   -1   0   
@@ -162,7 +162,7 @@ U 1 1 62EA9A73
 P 3400 4150
 F 0 "R56" V 3450 4250 50  0000 L CNN
 F 1 "3K6" V 3450 3900 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 4150 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 4150 50  0001 C CNN
 F 3 "~" H 3400 4150 50  0001 C CNN
 	1    3400 4150
 	0    -1   -1   0   
@@ -173,7 +173,7 @@ U 1 1 62EAA7A6
 P 3400 4250
 F 0 "R55" V 3450 4350 50  0000 L CNN
 F 1 "15K" V 3450 4000 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 4250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 4250 50  0001 C CNN
 F 3 "~" H 3400 4250 50  0001 C CNN
 	1    3400 4250
 	0    -1   -1   0   
@@ -184,7 +184,7 @@ U 1 1 62EAA7AC
 P 3400 4350
 F 0 "R54" V 3450 4450 50  0000 L CNN
 F 1 "7K5" V 3450 4100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 4350 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 4350 50  0001 C CNN
 F 3 "~" H 3400 4350 50  0001 C CNN
 	1    3400 4350
 	0    -1   -1   0   
@@ -195,7 +195,7 @@ U 1 1 62EAA7B2
 P 3400 4450
 F 0 "R53" V 3450 4550 50  0000 L CNN
 F 1 "3K6" V 3450 4200 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3400 4450 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3400 4450 50  0001 C CNN
 F 3 "~" H 3400 4450 50  0001 C CNN
 	1    3400 4450
 	0    -1   -1   0   
@@ -375,7 +375,7 @@ U 1 1 62ECC7A1
 P 4250 3750
 F 0 "R62" V 4300 3800 50  0000 L CNN
 F 1 "24K" V 4300 3550 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 4250 3750 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4250 3750 50  0001 C CNN
 F 3 "~" H 4250 3750 50  0001 C CNN
 	1    4250 3750
 	0    -1   -1   0   
@@ -441,7 +441,7 @@ U 1 1 62EDE2CA
 P 4250 4050
 F 0 "R63" V 4300 4100 50  0000 L CNN
 F 1 "24K" V 4300 3850 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 4250 4050 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4250 4050 50  0001 C CNN
 F 3 "~" H 4250 4050 50  0001 C CNN
 	1    4250 4050
 	0    -1   -1   0   
@@ -465,7 +465,7 @@ U 1 1 62EE0087
 P 4250 4350
 F 0 "R64" V 4300 4400 50  0000 L CNN
 F 1 "24K" V 4300 4150 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 4250 4350 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4250 4350 50  0001 C CNN
 F 3 "~" H 4250 4350 50  0001 C CNN
 	1    4250 4350
 	0    -1   -1   0   
@@ -581,7 +581,7 @@ $EndComp
 Wire Wire Line
 	4950 1200 5150 1200
 $Comp
-L Device:Q_NPN_CBE Q2
+L Device:Q_NPN_EBC Q2
 U 1 1 62F05E54
 P 5450 1500
 F 0 "Q2" H 5650 1550 50  0000 L CNN
@@ -597,7 +597,7 @@ U 1 1 62F09CF2
 P 4950 1500
 F 0 "R45" V 5000 1600 50  0000 L CNN
 F 1 "1K" V 5000 1300 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 4950 1500 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4950 1500 50  0001 C CNN
 F 3 "~" H 4950 1500 50  0001 C CNN
 	1    4950 1500
 	0    -1   -1   0   
@@ -636,7 +636,7 @@ U 1 1 62F0D5E3
 P 5850 1800
 F 0 "R42" V 5900 1900 50  0000 L CNN
 F 1 "27" V 5900 1600 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 5850 1800 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5850 1800 50  0001 C CNN
 F 3 "~" H 5850 1800 50  0001 C CNN
 	1    5850 1800
 	0    -1   -1   0   
@@ -647,7 +647,7 @@ U 1 1 62F0DE12
 P 4950 1650
 F 0 "R44" V 5000 1750 50  0000 L CNN
 F 1 "1K" V 5000 1450 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 4950 1650 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4950 1650 50  0001 C CNN
 F 3 "~" H 4950 1650 50  0001 C CNN
 	1    4950 1650
 	0    -1   -1   0   
@@ -658,7 +658,7 @@ U 1 1 62F0E03E
 P 5250 1800
 F 0 "R43" V 5300 1900 50  0000 L CNN
 F 1 "100" V 5300 1600 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 5250 1800 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5250 1800 50  0001 C CNN
 F 3 "~" H 5250 1800 50  0001 C CNN
 	1    5250 1800
 	0    -1   -1   0   
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1800 6150 1800
 $Comp
-L Device:Q_NPN_CBE Q5
+L Device:Q_NPN_EBC Q5
 U 1 1 62F56013
 P 6450 3000
 F 0 "Q5" H 6650 3050 50  0000 L CNN
@@ -725,7 +725,7 @@ U 1 1 62F56019
 P 6250 2750
 F 0 "R66" V 6300 2850 50  0000 L CNN
 F 1 "5K1" V 6300 2550 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 2750 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
 	1    6250 2750
 	0    -1   -1   0   
@@ -762,7 +762,7 @@ U 1 1 62F5602C
 P 6850 3300
 F 0 "R117" V 6900 3350 50  0000 L CNN
 F 1 "27" V 6900 3150 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6850 3300 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6850 3300 50  0001 C CNN
 F 3 "~" H 6850 3300 50  0001 C CNN
 	1    6850 3300
 	0    -1   -1   0   
@@ -773,7 +773,7 @@ U 1 1 62F56032
 P 5950 3150
 F 0 "R87" V 6000 3250 50  0000 L CNN
 F 1 "3K6" V 6000 2950 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 5950 3150 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5950 3150 50  0001 C CNN
 F 3 "~" H 5950 3150 50  0001 C CNN
 	1    5950 3150
 	0    -1   -1   0   
@@ -784,7 +784,7 @@ U 1 1 62F56038
 P 6250 3300
 F 0 "R52" V 6300 3400 50  0000 L CNN
 F 1 "100" V 6300 3100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 3300 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 3300 50  0001 C CNN
 F 3 "~" H 6250 3300 50  0001 C CNN
 	1    6250 3300
 	0    -1   -1   0   
@@ -850,7 +850,7 @@ Wire Wire Line
 	6050 3000 5750 3000
 Connection ~ 6050 3000
 $Comp
-L Device:Q_NPN_CBE Q4
+L Device:Q_NPN_EBC Q4
 U 1 1 62E5A91D
 P 6450 3950
 F 0 "Q4" H 6650 4000 50  0000 L CNN
@@ -866,7 +866,7 @@ U 1 1 62E5A923
 P 6250 3700
 F 0 "R51" V 6300 3800 50  0000 L CNN
 F 1 "5K1" V 6300 3500 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 3700 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 3700 50  0001 C CNN
 F 3 "~" H 6250 3700 50  0001 C CNN
 	1    6250 3700
 	0    -1   -1   0   
@@ -877,7 +877,7 @@ U 1 1 62E5A929
 P 6850 4250
 F 0 "R116" V 6900 4300 50  0000 L CNN
 F 1 "27" V 6900 4100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6850 4250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6850 4250 50  0001 C CNN
 F 3 "~" H 6850 4250 50  0001 C CNN
 	1    6850 4250
 	0    -1   -1   0   
@@ -888,7 +888,7 @@ U 1 1 62E5A92F
 P 5950 4100
 F 0 "R50" V 6000 4200 50  0000 L CNN
 F 1 "3K6" V 6000 3900 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 5950 4100 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5950 4100 50  0001 C CNN
 F 3 "~" H 5950 4100 50  0001 C CNN
 	1    5950 4100
 	0    -1   -1   0   
@@ -899,7 +899,7 @@ U 1 1 62E5A935
 P 6250 4250
 F 0 "R49" V 6300 4350 50  0000 L CNN
 F 1 "100" V 6300 4050 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 4250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 4250 50  0001 C CNN
 F 3 "~" H 6250 4250 50  0001 C CNN
 	1    6250 4250
 	0    -1   -1   0   
@@ -965,7 +965,7 @@ Wire Wire Line
 	6050 3950 5750 3950
 Connection ~ 6050 3950
 $Comp
-L Device:Q_NPN_CBE Q3
+L Device:Q_NPN_EBC Q3
 U 1 1 62E634DB
 P 6450 4950
 F 0 "Q3" H 6650 5000 50  0000 L CNN
@@ -981,7 +981,7 @@ U 1 1 62E634E1
 P 6250 4700
 F 0 "R48" V 6300 4800 50  0000 L CNN
 F 1 "5K1" V 6300 4500 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 4700 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 4700 50  0001 C CNN
 F 3 "~" H 6250 4700 50  0001 C CNN
 	1    6250 4700
 	0    -1   -1   0   
@@ -992,7 +992,7 @@ U 1 1 62E634E7
 P 6850 5250
 F 0 "R115" V 6900 5300 50  0000 L CNN
 F 1 "27" V 6900 5100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6850 5250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6850 5250 50  0001 C CNN
 F 3 "~" H 6850 5250 50  0001 C CNN
 	1    6850 5250
 	0    -1   -1   0   
@@ -1003,7 +1003,7 @@ U 1 1 62E634ED
 P 5950 5100
 F 0 "R47" V 6000 5200 50  0000 L CNN
 F 1 "3K6" V 6000 4900 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 5950 5100 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5950 5100 50  0001 C CNN
 F 3 "~" H 5950 5100 50  0001 C CNN
 	1    5950 5100
 	0    -1   -1   0   
@@ -1014,7 +1014,7 @@ U 1 1 62E634F3
 P 6250 5250
 F 0 "R46" V 6300 5350 50  0000 L CNN
 F 1 "100" V 6300 5050 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 6250 5250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 5250 50  0001 C CNN
 F 3 "~" H 6250 5250 50  0001 C CNN
 	1    6250 5250
 	0    -1   -1   0   
@@ -1140,31 +1140,16 @@ $EndComp
 Wire Wire Line
 	7250 9700 7250 9600
 $Comp
-L Connector_Generic_Shielded:Conn_01x10_Shielded JMOD1
+L Connector_Generic:Conn_01x10 JMOD1
 U 1 1 62EB0C08
 P 5250 6800
 F 0 "JMOD1" H 5260 7290 50  0000 C CNN
 F 1 "Modulator" H 5290 6210 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 5250 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5250 6800 50  0001 C CNN
 F 3 "~" H 5250 6800 50  0001 C CNN
 	1    5250 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62EB1ADA
-P 5250 7600
-AR Path="/62C842FF/62EB1ADA" Ref="#PWR?"  Part="1" 
-AR Path="/62E3A54E/62EB1ADA" Ref="#PWR0187"  Part="1" 
-F 0 "#PWR0187" H 5250 7350 50  0001 C CNN
-F 1 "GND" H 5250 7450 50  0000 C CNN
-F 2 "" H 5250 7600 50  0001 C CNN
-F 3 "" H 5250 7600 50  0001 C CNN
-	1    5250 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 7500 5250 7600
 Text Label 4850 6400 2    50   ~ 0
 red_mod
 Text Label 4850 6500 2    50   ~ 0
@@ -1319,13 +1304,13 @@ U 1 1 62E6D609
 P 2350 7600
 F 0 "R129" V 2400 7700 50  0000 L CNN
 F 1 "10K" V 2400 7400 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 2350 7600 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2350 7600 50  0001 C CNN
 F 3 "~" H 2350 7600 50  0001 C CNN
 	1    2350 7600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NPN_CBE Q10
+L Device:Q_NPN_EBC Q10
 U 1 1 62E6E7AC
 P 2650 7950
 F 0 "Q10" H 2850 8000 50  0000 L CNN
@@ -1341,7 +1326,7 @@ U 1 1 62E6F5CA
 P 3150 8300
 F 0 "R131" V 3200 8400 50  0000 L CNN
 F 1 "100" V 3200 8100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 3150 8300 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3150 8300 50  0001 C CNN
 F 3 "~" H 3150 8300 50  0001 C CNN
 	1    3150 8300
 	0    -1   -1   0   
@@ -1352,7 +1337,7 @@ U 1 1 62E70511
 P 2450 8300
 F 0 "R130" V 2500 8400 50  0000 L CNN
 F 1 "150" V 2500 8100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L15.24mm" H 2450 8300 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2450 8300 50  0001 C CNN
 F 3 "~" H 2450 8300 50  0001 C CNN
 	1    2450 8300
 	0    -1   -1   0   
