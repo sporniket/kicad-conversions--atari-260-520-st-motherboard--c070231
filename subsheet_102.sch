@@ -495,7 +495,7 @@ U 1 1 62EED197
 P 4900 3750
 F 0 "CR1" H 4950 3800 50  0000 L CNN
 F 1 "1N914" H 4600 3800 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 4900 3750 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 4900 3750 50  0001 C CNN
 F 3 "~" V 4900 3750 50  0001 C CNN
 	1    4900 3750
 	-1   0    0    1   
@@ -506,7 +506,7 @@ U 1 1 62EEE4D3
 P 4900 4050
 F 0 "CR2" H 4950 4100 50  0000 L CNN
 F 1 "1N914" H 4600 4100 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 4900 4050 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 4900 4050 50  0001 C CNN
 F 3 "~" V 4900 4050 50  0001 C CNN
 	1    4900 4050
 	-1   0    0    1   
@@ -517,7 +517,7 @@ U 1 1 62EEE94E
 P 4900 4350
 F 0 "CR3" H 4950 4400 50  0000 L CNN
 F 1 "1N914" H 4600 4400 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 4900 4350 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 4900 4350 50  0001 C CNN
 F 3 "~" V 4900 4350 50  0001 C CNN
 	1    4900 4350
 	-1   0    0    1   
@@ -841,7 +841,7 @@ U 1 1 62E453C3
 P 5650 3000
 F 0 "CR6" H 5700 2950 50  0000 L CNN
 F 1 "1N914" H 5350 2950 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 5650 3000 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 5650 3000 50  0001 C CNN
 F 3 "~" V 5650 3000 50  0001 C CNN
 	1    5650 3000
 	-1   0    0    1   
@@ -956,7 +956,7 @@ U 1 1 62E5A954
 P 5650 3950
 F 0 "CR5" H 5700 3900 50  0000 L CNN
 F 1 "1N914" H 5350 3900 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 5650 3950 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 5650 3950 50  0001 C CNN
 F 3 "~" V 5650 3950 50  0001 C CNN
 	1    5650 3950
 	-1   0    0    1   
@@ -1071,7 +1071,7 @@ U 1 1 62E63512
 P 5650 4950
 F 0 "CR4" H 5700 4900 50  0000 L CNN
 F 1 "1N914" H 5350 4900 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 5650 4950 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 5650 4950 50  0001 C CNN
 F 3 "~" V 5650 4950 50  0001 C CNN
 	1    5650 4950
 	-1   0    0    1   
@@ -1282,7 +1282,7 @@ U 1 1 62E57487
 P 1700 7800
 F 0 "CR9" H 1450 7850 50  0000 L CNN
 F 1 "1N914" H 1750 7850 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 1700 7800 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 1700 7800 50  0001 C CNN
 F 3 "~" V 1700 7800 50  0001 C CNN
 	1    1700 7800
 	1    0    0    -1  
@@ -1293,7 +1293,7 @@ U 1 1 62E6D0A3
 P 1700 7950
 F 0 "CR10" H 1450 8000 50  0000 L CNN
 F 1 "1N914" H 1750 8000 50  0000 L CNN
-F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L15.24mm" V 1700 7950 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" V 1700 7950 50  0001 C CNN
 F 3 "~" V 1700 7950 50  0001 C CNN
 	1    1700 7950
 	1    0    0    -1  
@@ -1480,7 +1480,7 @@ AR Path="/62DB00CC/62F61742" Ref="L?"  Part="1"
 AR Path="/62E3A54E/62F61742" Ref="L18"  Part="1" 
 F 0 "L18" H 7200 1300 50  0000 R CNN
 F 1 "0.27uH" H 7200 1200 50  0000 R CNN
-F 2 "commons-passives_THT:Passive_THT_inductor_W5.08mm_L17.78mm" H 7250 1250 50  0001 C CNN
+F 2 "commons-passives_THT:Passive_THT_inductor_W5.08mm_L15.24mm" H 7250 1250 50  0001 C CNN
 F 3 "~" H 7250 1250 50  0001 C CNN
 	1    7250 1250
 	1    0    0    -1  
