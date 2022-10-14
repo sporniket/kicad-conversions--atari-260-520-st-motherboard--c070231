@@ -1,0 +1,278 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+#
+# Symbol set of : ST_DMA_DIP40
+#
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+# ST_DMA_DIP40
+#
+DEF ST_DMA_DIP40 U 0 50 Y Y 1 L N
+ALIAS C398789-001
+F0 "U" 150 2000 50 H V L TNN
+F1 "ST_DMA_DIP40" 150 1900 50 H V L TNB
+F2 "Package_DIP:DIP-40_W15.24mm_LongPads" 150 2100 50 H I L TNN
+F3 "https://docs.dev-docs.org/htm/search.php?find=Atari+STBook+Schematic+" 150 2200 50 H I L TNN
+DRAW
+S -450 1800 450 -1800 0 0 10 f
+S -450 1400 450 1100 0 0 10 N
+S -450 1100 450 900 0 0 10 N
+S -450 900 450 700 0 0 10 N
+S -450 700 -150 500 0 0 10 N
+S -450 500 -150 300 0 0 10 N
+S -450 300 -150 -1400 0 0 10 N
+S 150 700 450 400 0 0 10 N
+S 150 400 450 100 0 0 10 N
+S 150 100 450 -800 0 0 10 N
+X R/~W~ 1 -750 1300 300 R 50 50 0 0 I 
+X ~FCS~ 3 -750 1200 300 R 50 50 0 0 I 
+X HDRQ 23 -750 1000 300 R 50 50 0 0 I 
+X FDRQ 21 -750 800 300 R 50 50 0 0 I 
+X CLK 39 -750 600 300 R 50 50 0 0 I C
+X A1 2 -750 400 300 R 50 50 0 0 I 
+X D15 19 -750 200 300 R 50 50 0 0 T 
+X D14 18 -750 100 300 R 50 50 0 0 T 
+X D13 17 -750 0 300 R 50 50 0 0 T 
+X D12 16 -750 -100 300 R 50 50 0 0 T 
+X D11 15 -750 -200 300 R 50 50 0 0 T 
+X D10 14 -750 -300 300 R 50 50 0 0 T 
+X D9 13 -750 -400 300 R 50 50 0 0 T 
+X D8 12 -750 -500 300 R 50 50 0 0 T 
+X D7 11 -750 -600 300 R 50 50 0 0 T 
+X D6 10 -750 -700 300 R 50 50 0 0 T 
+X D5 9 -750 -800 300 R 50 50 0 0 T 
+X D4 8 -750 -900 300 R 50 50 0 0 T 
+X D3 7 -750 -1000 300 R 50 50 0 0 T 
+X D2 6 -750 -1100 300 R 50 50 0 0 T 
+X D1 5 -750 -1200 300 R 50 50 0 0 T 
+X D0 4 -750 -1300 300 R 50 50 0 0 T 
+X VCC 40 -50 2100 300 D 50 50 0 0 W 
+X RDY 38 750 1300 300 L 50 50 0 0 T 
+X ~HDCS~ 24 750 1000 300 L 50 50 0 0 C 
+X ~FDCS~ 22 750 800 300 L 50 50 0 0 C 
+X CR/~W~ 25 750 600 300 L 50 50 0 0 C 
+X ~ACK~ 37 750 500 300 L 50 50 0 0 C 
+X CA2 27 750 300 300 L 50 50 0 0 T 
+X CA1 26 750 200 300 L 50 50 0 0 T 
+X CD7 29 750 0 300 L 50 50 0 0 T 
+X CD6 30 750 -100 300 L 50 50 0 0 T 
+X CD5 31 750 -200 300 L 50 50 0 0 T 
+X CD4 32 750 -300 300 L 50 50 0 0 T 
+X CD3 33 750 -400 300 L 50 50 0 0 T 
+X CD2 34 750 -500 300 L 50 50 0 0 T 
+X CD1 35 750 -600 300 L 50 50 0 0 T 
+X CD0 36 750 -700 300 L 50 50 0 0 T 
+X GND 20 -50 -2100 300 U 50 50 0 0 W 
+X GND 28 50 -2100 300 U 50 50 0 0 W 
+ENDDRAW
+ENDDEF
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+# ST_DMA_DIP40 -- Multiple units symbol
+#
+DEF ST_DMA_DIP40_MU U 0 50 Y Y 10 L N
+ALIAS C398789-001_MU
+F0 "U" 0 300 50 H V L TNN
+F1 "ST_DMA_DIP40" 0 200 50 H V L TNB
+F2 "Package_DIP:DIP-40_W15.24mm_LongPads" 0 400 50 H I L TNN
+F3 "https://docs.dev-docs.org/htm/search.php?find=Atari+STBook+Schematic+" 0 500 50 H I L TNN
+DRAW
+# --- --- --- ---
+# CLKSYS -- Clocking system
+#
+T 0 0 100 50 1 1 0 "Clocking system" Normal 0 L T
+S 0 0 400 -200 1 0 10 f
+X CLK 39 -300 -100 300 R 50 50 1 0 I C
+# --- --- --- ---
+# SYSCTL -- Host system control signals
+#
+T 0 0 100 50 1 2 0 "Host system control signals" Normal 0 L T
+S 0 0 700 -300 2 0 10 f
+X R/~W~ 1 -300 -100 300 R 50 50 2 0 I 
+X ~FCS~ 3 -300 -200 300 R 50 50 2 0 I 
+X RDY 38 1000 -100 300 L 50 50 2 0 T 
+# --- --- --- ---
+# REGSEL -- Register select
+#
+T 0 0 100 50 1 3 0 "Register select" Normal 0 L T
+S 0 0 300 -200 3 0 10 f
+X A1 2 -300 -100 300 R 50 50 3 0 I 
+# --- --- --- ---
+# DEVCTL -- System control signals to devices
+#
+T 0 0 100 50 1 4 0 "System control signals to devices" Normal 0 L T
+S 0 0 400 -300 4 0 10 f
+X CR/~W~ 25 700 -100 300 L 50 50 4 0 C 
+X ~ACK~ 37 700 -200 300 L 50 50 4 0 C 
+# --- --- --- ---
+# DRGSEL -- Devices register select
+#
+T 0 0 100 50 1 5 0 "Devices register select" Normal 0 L T
+S 0 0 400 -300 5 0 10 f
+X CA2 27 700 -100 300 L 50 50 5 0 T 
+X CA1 26 700 -200 300 L 50 50 5 0 T 
+# --- --- --- ---
+# HDCTL -- ACSI Control
+#
+T 0 0 100 50 1 6 0 "ACSI Control" Normal 0 L T
+S 0 0 700 -200 6 0 10 f
+X HDRQ 23 -300 -100 300 R 50 50 6 0 I 
+X ~HDCS~ 24 1000 -100 300 L 50 50 6 0 C 
+# --- --- --- ---
+# FDCTL -- Floppy Drive Control
+#
+T 0 0 100 50 1 7 0 "Floppy Drive Control" Normal 0 L T
+S 0 0 700 -200 7 0 10 f
+X FDRQ 21 -300 -100 300 R 50 50 7 0 I 
+X ~FDCS~ 22 1000 -100 300 L 50 50 7 0 C 
+# --- --- --- ---
+# DATA -- Bidirectionnal bus used to transmit data to or receive data from the DMA by the Host
+#
+T 0 0 100 50 1 8 0 "Bidirectionnal bus used to transmit data to or receive data from the DMA by the Host" Normal 0 L T
+S 0 0 400 -1700 8 0 10 f
+X D15 19 700 -100 300 L 50 50 8 0 T 
+X D14 18 700 -200 300 L 50 50 8 0 T 
+X D13 17 700 -300 300 L 50 50 8 0 T 
+X D12 16 700 -400 300 L 50 50 8 0 T 
+X D11 15 700 -500 300 L 50 50 8 0 T 
+X D10 14 700 -600 300 L 50 50 8 0 T 
+X D9 13 700 -700 300 L 50 50 8 0 T 
+X D8 12 700 -800 300 L 50 50 8 0 T 
+X D7 11 700 -900 300 L 50 50 8 0 T 
+X D6 10 700 -1000 300 L 50 50 8 0 T 
+X D5 9 700 -1100 300 L 50 50 8 0 T 
+X D4 8 700 -1200 300 L 50 50 8 0 T 
+X D3 7 700 -1300 300 L 50 50 8 0 T 
+X D2 6 700 -1400 300 L 50 50 8 0 T 
+X D1 5 700 -1500 300 L 50 50 8 0 T 
+X D0 4 700 -1600 300 L 50 50 8 0 T 
+# --- --- --- ---
+# DEVDATA -- Bidirectionnal bus used to transmit data to or receive data from the DMA by connected devices
+#
+T 0 0 100 50 1 9 0 "Bidirectionnal bus used to transmit data to or receive data from the DMA by connected devices" Normal 0 L T
+S 0 0 400 -900 9 0 10 f
+X CD7 29 700 -100 300 L 50 50 9 0 T 
+X CD6 30 700 -200 300 L 50 50 9 0 T 
+X CD5 31 700 -300 300 L 50 50 9 0 T 
+X CD4 32 700 -400 300 L 50 50 9 0 T 
+X CD3 33 700 -500 300 L 50 50 9 0 T 
+X CD2 34 700 -600 300 L 50 50 9 0 T 
+X CD1 35 700 -700 300 L 50 50 9 0 T 
+X CD0 36 700 -800 300 L 50 50 9 0 T 
+# --- --- --- ---
+# POWER -- Power distribution
+#
+T 0 0 100 50 1 10 0 "Power distribution" Normal 0 L T
+S 0 0 600 -500 10 0 10 f
+X VCC 40 -300 -100 300 R 50 50 10 0 W 
+X GND 20 400 -800 300 U 50 50 10 0 W 
+X GND 28 500 -800 300 U 50 50 10 0 W 
+ENDDRAW
+ENDDEF
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+# ST_DMA_DIP40 -- Physical, single unit symbol
+#
+DEF ST_DMA_DIP40_PHY U 0 50 Y Y 1 L N
+ALIAS C398789-001_PHY
+F0 "U" -350 1250 50 H V L TNN
+F1 "ST_DMA_DIP40" -350 1150 50 H V L TNB
+F2 "Package_DIP:DIP-40_W15.24mm_LongPads" -350 1350 50 H I L TNN
+F3 "https://docs.dev-docs.org/htm/search.php?find=Atari+STBook+Schematic+" -350 1450 50 H I L TNN
+DRAW
+S -350 1050 350 -1050 0 0 10 f
+X R/~W~ 1 -650 950 300 R 50 50 0 0 I 
+X A1 2 -650 850 300 R 50 50 0 0 I 
+X ~FCS~ 3 -650 750 300 R 50 50 0 0 I 
+X D0 4 -650 650 300 R 50 50 0 0 T 
+X D1 5 -650 550 300 R 50 50 0 0 T 
+X D2 6 -650 450 300 R 50 50 0 0 T 
+X D3 7 -650 350 300 R 50 50 0 0 T 
+X D4 8 -650 250 300 R 50 50 0 0 T 
+X D5 9 -650 150 300 R 50 50 0 0 T 
+X D6 10 -650 50 300 R 50 50 0 0 T 
+X D7 11 -650 -50 300 R 50 50 0 0 T 
+X D8 12 -650 -150 300 R 50 50 0 0 T 
+X D9 13 -650 -250 300 R 50 50 0 0 T 
+X D10 14 -650 -350 300 R 50 50 0 0 T 
+X D11 15 -650 -450 300 R 50 50 0 0 T 
+X D12 16 -650 -550 300 R 50 50 0 0 T 
+X D13 17 -650 -650 300 R 50 50 0 0 T 
+X D14 18 -650 -750 300 R 50 50 0 0 T 
+X D15 19 -650 -850 300 R 50 50 0 0 T 
+X GND 20 -650 -950 300 R 50 50 0 0 W 
+X VCC 40 650 950 300 L 50 50 0 0 W 
+X CLK 39 650 850 300 L 50 50 0 0 I C
+X RDY 38 650 750 300 L 50 50 0 0 T 
+X ~ACK~ 37 650 650 300 L 50 50 0 0 C 
+X CD0 36 650 550 300 L 50 50 0 0 T 
+X CD1 35 650 450 300 L 50 50 0 0 T 
+X CD2 34 650 350 300 L 50 50 0 0 T 
+X CD3 33 650 250 300 L 50 50 0 0 T 
+X CD4 32 650 150 300 L 50 50 0 0 T 
+X CD5 31 650 50 300 L 50 50 0 0 T 
+X CD6 30 650 -50 300 L 50 50 0 0 T 
+X CD7 29 650 -150 300 L 50 50 0 0 T 
+X GND 28 650 -250 300 L 50 50 0 0 W 
+X CA2 27 650 -350 300 L 50 50 0 0 T 
+X CA1 26 650 -450 300 L 50 50 0 0 T 
+X CR/~W~ 25 650 -550 300 L 50 50 0 0 C 
+X ~HDCS~ 24 650 -650 300 L 50 50 0 0 C 
+X HDRQ 23 650 -750 300 L 50 50 0 0 I 
+X ~FDCS~ 22 650 -850 300 L 50 50 0 0 C 
+X FDRQ 21 650 -950 300 L 50 50 0 0 I 
+ENDDRAW
+ENDDEF
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+# ST_DMA_DIP40 -- Physical socket, single unit symbol
+#
+DEF ST_DMA_DIP40_SOCKET U 0 50 Y Y 1 L N
+ALIAS C398789-001_SOCKET
+F0 "U" -350 1250 50 H V L TNN
+F1 "ST_DMA_DIP40" -350 1150 50 H V L TNB
+F2 "Package_DIP:DIP-40_W15.24mm_LongPads" -350 1350 50 H I L TNN
+F3 "https://docs.dev-docs.org/htm/search.php?find=Atari+STBook+Schematic+" -350 1450 50 H I L TNN
+DRAW
+S -350 1050 350 -1050 0 0 10 f
+X R/~W~ 1 -650 950 300 R 50 50 0 0 P 
+X A1 2 -650 850 300 R 50 50 0 0 P 
+X ~FCS~ 3 -650 750 300 R 50 50 0 0 P 
+X D0 4 -650 650 300 R 50 50 0 0 P 
+X D1 5 -650 550 300 R 50 50 0 0 P 
+X D2 6 -650 450 300 R 50 50 0 0 P 
+X D3 7 -650 350 300 R 50 50 0 0 P 
+X D4 8 -650 250 300 R 50 50 0 0 P 
+X D5 9 -650 150 300 R 50 50 0 0 P 
+X D6 10 -650 50 300 R 50 50 0 0 P 
+X D7 11 -650 -50 300 R 50 50 0 0 P 
+X D8 12 -650 -150 300 R 50 50 0 0 P 
+X D9 13 -650 -250 300 R 50 50 0 0 P 
+X D10 14 -650 -350 300 R 50 50 0 0 P 
+X D11 15 -650 -450 300 R 50 50 0 0 P 
+X D12 16 -650 -550 300 R 50 50 0 0 P 
+X D13 17 -650 -650 300 R 50 50 0 0 P 
+X D14 18 -650 -750 300 R 50 50 0 0 P 
+X D15 19 -650 -850 300 R 50 50 0 0 P 
+X GND 20 -650 -950 300 R 50 50 0 0 P 
+X VCC 40 650 950 300 L 50 50 0 0 P 
+X CLK 39 650 850 300 L 50 50 0 0 P 
+X RDY 38 650 750 300 L 50 50 0 0 P 
+X ~ACK~ 37 650 650 300 L 50 50 0 0 P 
+X CD0 36 650 550 300 L 50 50 0 0 P 
+X CD1 35 650 450 300 L 50 50 0 0 P 
+X CD2 34 650 350 300 L 50 50 0 0 P 
+X CD3 33 650 250 300 L 50 50 0 0 P 
+X CD4 32 650 150 300 L 50 50 0 0 P 
+X CD5 31 650 50 300 L 50 50 0 0 P 
+X CD6 30 650 -50 300 L 50 50 0 0 P 
+X CD7 29 650 -150 300 L 50 50 0 0 P 
+X GND 28 650 -250 300 L 50 50 0 0 P 
+X CA2 27 650 -350 300 L 50 50 0 0 P 
+X CA1 26 650 -450 300 L 50 50 0 0 P 
+X CR/~W~ 25 650 -550 300 L 50 50 0 0 P 
+X ~HDCS~ 24 650 -650 300 L 50 50 0 0 P 
+X HDRQ 23 650 -750 300 L 50 50 0 0 P 
+X ~FDCS~ 22 650 -850 300 L 50 50 0 0 P 
+X FDRQ 21 650 -950 300 L 50 50 0 0 P 
+ENDDRAW
+ENDDEF
+#
+#End Library
