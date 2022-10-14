@@ -1,7 +1,7 @@
 (sym_lib_table
-  (lib (name st_mmu)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/st_mmu.lib)(options "")(descr ""))
-  (lib (name 74x244)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x244.lib)(options "")(descr ""))
-  (lib (name 74x373)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x373.lib)(options "")(descr ""))
-  (lib (name dram-256Kx1)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/commons/dram-256Kx1.lib)(options "")(descr ""))
-  (lib (name st_shifter)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/st_shifter.lib)(options "")(descr ""))
+  (lib (name st_mmu)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/atari-16-32/st_mmu.lib)(options "")(descr ""))
+  (lib (name 74x244)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/commons/74x244.lib)(options "")(descr ""))
+  (lib (name 74x373)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/commons/74x373.lib)(options "")(descr ""))
+  (lib (name dram-256Kx1)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/commons/dram-256Kx1.lib)(options "")(descr ""))
+  (lib (name st_shifter)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/atari-16-32/st_shifter.lib)(options "")(descr ""))
 )

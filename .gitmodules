@@ -1,6 +1,3 @@
-[submodule "kicad-symbols-generated"]
-	path = kicad-symbols-generated
-	url = https://github.com/sporniket/kicad-symbols-generated
 [submodule "kicad-symbols-handmade"]
 	path = kicad-symbols-handmade
 	url = https://github.com/sporniket/kicad-symbols-handmade
