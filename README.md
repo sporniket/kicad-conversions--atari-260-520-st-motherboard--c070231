@@ -39,11 +39,9 @@ This project contains a PCB design that is an **approximate reconstruction** :
 
 ### From sources
 
-To get the latest available models, one must clone the git repository **and the submodules**. Then some modules needs a build step to generate its libraries.
+To get the latest available models, one must clone the git repository **and the submodules**.
 
 	git clone --recurse-submodules https://github.com/sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231.git
-	cd kicad-conversions--atari-260-520-st-motherboard--c070231/kicad-symbols-generated
-	make
 
 Then, open the project in Kicad.
 
@@ -51,7 +49,7 @@ Then, open the project in Kicad.
 
 A github releases will provide :
 
-* A standalone Kicad project (all custom libraries included and ready to use)
+* A standalone Kicad project (all custom libraries included)
 * A PDF of the schematics
 * A PDF of the silkscreen
 
@@ -62,4 +60,3 @@ See the [project issues](https://github.com/sporniket/kicad-conversions--atari-2
 
 ### Report issues
 Use the [project issues](https://github.com/sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231/issues) page.
-
