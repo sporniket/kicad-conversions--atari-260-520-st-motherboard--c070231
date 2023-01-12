@@ -5,4 +5,5 @@
   (lib (name dram-256Kx1)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/commons/dram-256Kx1.lib)(options "")(descr ""))
   (lib (name st_shifter)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated-v1/ics/atari-16-32/st_shifter.lib)(options "")(descr ""))
   (lib (name 27c512)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/commons/27c512.lib)(options "")(descr ""))
+  (lib (name st_glue)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/st_glue.lib)(options "")(descr ""))
 )
