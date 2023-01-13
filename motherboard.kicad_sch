@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-01-12")
+    (date "2023-01-13")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -485,6 +485,21 @@
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063c14e0d"
       (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000063c0e747/0e4f3a38-a650-4cc6-9652-1236baebede9"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/1607b4db-85e8-447e-8038-6ac4f0f7f121"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/b50b53a4-407d-4563-9e8e-65adc7b8ecec"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/f5b4d9fc-988c-4fba-ac2f-848603e29ac6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/fbbecb24-a9f0-4850-9f11-7d2e7de51de7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -502,6 +517,9 @@
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063584196"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/a122b196-f93e-459d-9301-55d8c62b7855"
+      (reference "C13") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062fa5950"
       (reference "C16") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -646,6 +664,9 @@
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e6e7ac"
       (reference "Q10") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/a9e3d508-7917-4d7c-8236-dc441ae5c6f5"
+      (reference "R5") (unit 1) (value "1K") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f0d5e3"
       (reference "R42") (unit 1) (value "27") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
