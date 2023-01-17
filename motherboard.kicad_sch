@@ -485,20 +485,20 @@
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063c14e0d"
       (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000063c0e747/0e4f3a38-a650-4cc6-9652-1236baebede9"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063c0e747/1607b4db-85e8-447e-8038-6ac4f0f7f121"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000063c0e747/b50b53a4-407d-4563-9e8e-65adc7b8ecec"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/0e4f3a38-a650-4cc6-9652-1236baebede9"
+      (reference "#PWR0221") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063c0e747/f5b4d9fc-988c-4fba-ac2f-848603e29ac6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0222") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063c0e747/fbbecb24-a9f0-4850-9f11-7d2e7de51de7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063c0e747/1607b4db-85e8-447e-8038-6ac4f0f7f121"
+      (reference "#PWR0224") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -666,7 +666,7 @@
       (reference "Q10") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/00000000-0000-0000-0000-000063c0e747/a9e3d508-7917-4d7c-8236-dc441ae5c6f5"
-      (reference "R5") (unit 1) (value "1K") (footprint "")
+      (reference "R5") (unit 1) (value "1K") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f0d5e3"
       (reference "R42") (unit 1) (value "27") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
@@ -815,6 +815,9 @@
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063584176"
       (reference "U7") (unit 1) (value "27C512_PHY") (footprint "Package_DIP:DIP-28_W15.24mm_LongPads")
     )
+    (path "/00000000-0000-0000-0000-000063c0e747/00000000-0000-0000-0000-000063c0f30d"
+      (reference "U12") (unit 1) (value "ST_GLUE_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
+    )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062c846a6"
       (reference "U15") (unit 1) (value "ST_MMU_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
@@ -880,9 +883,6 @@
     )
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062ef46c4"
       (reference "U45") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
-    )
-    (path "/00000000-0000-0000-0000-000063c0e747/00000000-0000-0000-0000-000063c0f30d"
-      (reference "U?") (unit 1) (value "ST_GLUE_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
   )
 )
