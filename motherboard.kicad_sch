@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-01-13")
+    (date "2023-02-23")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -24,6 +24,10 @@
   (text "Sheet 1" (at 25.4 50.8 0)
     (effects (font (size 3.9878 3.9878)) (justify left bottom))
     (uuid 2891767f-251c-48c4-91c0-deb1b368f45c)
+  )
+  (text "Page 7" (at 176.53 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 343a1668-7762-46c7-9fd5-7dde82b71b61)
   )
   (text "Page 6" (at 176.53 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -106,6 +110,18 @@
     )
   )
 
+  (sheet (at 25.4 107.95) (size 160.02 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5b318927-956e-4f28-80bb-c09676827d9a)
+    (property "Sheet name" "U10-68000" (id 0) (at 25.4 106.9734 0)
+      (effects (font (size 1.8 1.8)) (justify left bottom))
+    )
+    (property "Sheet file" "subsheet_105.kicad_sch" (id 1) (at 25.4 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-000062c842ff" (page "2"))
@@ -113,6 +129,7 @@
     (path "/00000000-0000-0000-0000-000062e3a54e" (page "4"))
     (path "/00000000-0000-0000-0000-00006351bff4" (page "5"))
     (path "/00000000-0000-0000-0000-000063c0e747" (page "6"))
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a" (page "7"))
   )
 
   (symbol_instances
@@ -797,6 +814,24 @@
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062f12fab"
       (reference "R134") (unit 1) (value "68R") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/fa2ed178-d71a-47cb-b52e-1065d46615ab"
+      (reference "RP1") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/2cb22489-ce82-448d-905e-01465d95bc47"
+      (reference "RP2") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/d0564698-ba14-4bda-b9e9-0b388f21bac2"
+      (reference "RP3") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/3e670fa4-4e6c-44b6-8bdb-ef4ae836a4bf"
+      (reference "RP4") (unit 1) (value "4K7×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/7bba4360-0b90-4aaf-9fed-4f7961efe14b"
+      (reference "RP5") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/4a695da9-73c5-4eda-80d5-d4bc04662a45"
+      (reference "RP6") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+    )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e89e"
       (reference "U2") (unit 1) (value "27C512_PHY") (footprint "Package_DIP:DIP-28_W15.24mm_LongPads")
     )
@@ -814,6 +849,9 @@
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063584176"
       (reference "U7") (unit 1) (value "27C512_PHY") (footprint "Package_DIP:DIP-28_W15.24mm_LongPads")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/0ad984e5-573c-4a8b-8dee-9cd70d550511"
+      (reference "U10") (unit 1) (value "MC68000_DIP_64_PHY") (footprint "Package_DIP:DIP-64_W22.86mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-000063c0e747/00000000-0000-0000-0000-000063c0f30d"
       (reference "U12") (unit 1) (value "ST_GLUE_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
