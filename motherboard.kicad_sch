@@ -517,6 +517,15 @@
     (path "/00000000-0000-0000-0000-000063c0e747/1607b4db-85e8-447e-8038-6ac4f0f7f121"
       (reference "#PWR0224") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/085c1bdd-4bf1-4f44-80ab-457996b24bfd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/486d4e53-7158-47b2-963f-d35c444782b0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/9f329afb-6e7e-4e5a-bed3-7a1c47d267dc"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -534,6 +543,9 @@
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-000063584196"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/a65b7218-0ea0-4f38-b673-21f0978d519f"
+      (reference "C9") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000063c0e747/a122b196-f93e-459d-9301-55d8c62b7855"
       (reference "C13") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -613,6 +625,9 @@
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062dbd8ab"
       (reference "C104") (unit 1) (value "470uF") (footprint "commons-passives_THT:Passive_THT_capacitor_polarized_W10.16mm_L30.48mm")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/8749c304-9e63-4b89-a582-447b685a9a75"
+      (reference "C105") (unit 1) (value "22uF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062eed197"
       (reference "CR1") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
@@ -657,6 +672,9 @@
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-0000636d7986"
       (reference "L23") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/c61f80f0-ca6c-439f-a0c8-8950741b80f4"
+      (reference "L25") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
     )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062f52301"
       (reference "L26") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
