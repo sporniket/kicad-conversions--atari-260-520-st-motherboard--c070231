@@ -526,6 +526,9 @@
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/486d4e53-7158-47b2-963f-d35c444782b0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/53316c2c-d36c-4f57-95c5-96ca6301eb48"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/7a17ded4-f901-4cfa-ad3d-21bdd5494e11"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
@@ -706,8 +709,41 @@
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e6e7ac"
       (reference "Q10") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/7070f40b-76a7-4d37-9af5-8676c4c6ebee"
+      (reference "R1") (unit 1) (value "4K7") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/8bec1c04-af2c-4882-a13b-06833af203c9"
+      (reference "R2") (unit 1) (value "4K7") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000063c0e747/a9e3d508-7917-4d7c-8236-dc441ae5c6f5"
       (reference "R5") (unit 1) (value "1K") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/5686f107-ea96-4473-a940-9e744a895561"
+      (reference "R6") (unit 1) (value "4K7") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/94e2f052-fcae-4adb-8066-f802d1b9c1d6"
+      (reference "R9") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/4ebf4773-fd03-4191-96e7-f72835e5baf4"
+      (reference "R10") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/5dc73bc8-735b-465f-8cab-da1e9b4ea918"
+      (reference "R11") (unit 1) (value "4K7") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/0cf55983-c6fd-4899-94d5-c9435c7ffe56"
+      (reference "R12") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/b5d31e90-cb43-471d-9613-ade8a5eef5eb"
+      (reference "R29") (unit 1) (value "4K7") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/a70be2f4-8a8e-42e0-b031-9595fb192d82"
+      (reference "R30") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/b2040fee-1d17-411d-aca1-0024b6855432"
+      (reference "R31") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/db9bacf0-1caf-465b-a79c-08bef739d5be"
+      (reference "R32") (unit 1) (value "4K7") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f0d5e3"
       (reference "R42") (unit 1) (value "27") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
@@ -780,6 +816,9 @@
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f56019"
       (reference "R66") (unit 1) (value "5K1") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
+    )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/ac65e2ef-8033-478f-ad51-a201522e70e9"
+      (reference "R75") (unit 1) (value "4K7") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f56032"
       (reference "R87") (unit 1) (value "3K6") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
