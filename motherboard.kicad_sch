@@ -535,6 +535,9 @@
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/9f329afb-6e7e-4e5a-bed3-7a1c47d267dc"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/5b318927-956e-4f28-80bb-c09676827d9a/f9b98555-db21-40ca-b3e6-907bd3e24c82"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
