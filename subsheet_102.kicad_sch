@@ -2000,6 +2000,10 @@
     (effects (font (size 1.8034 1.8034)) (justify left bottom))
     (uuid 6fff55eb-076f-4a2f-86d3-091fcb2366e9)
   )
+  (text "PCB ASSY NO.\n* CA070052-004" (at 25.4 217.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c93348b6-5bf8-4d14-812a-4e7289034118)
+  )
   (text "PCB ASSY NO.\n* CA070052-001\n* CA070052-002\n* CA070052-003\n* CA070052-005\n"
     (at 137.16 172.72 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
