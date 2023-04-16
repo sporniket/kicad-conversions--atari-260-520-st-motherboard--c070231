@@ -9,4 +9,5 @@
   (lib (name "mc_68000_dip64")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/mc_68000_dip64.lib")(options "")(descr ""))
   (lib (name "lm556")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/lm556.lib")(options "")(descr ""))
   (lib (name "74x05")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x05.lib")(options "")(descr ""))
+  (lib (name "mc68901d-dip48")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/mc68901d-dip48.lib")(options "")(descr ""))
 )
