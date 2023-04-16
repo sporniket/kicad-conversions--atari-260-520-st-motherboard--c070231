@@ -1083,6 +1083,12 @@
     (path "/00000000-0000-0000-0000-000063c0e747/00000000-0000-0000-0000-000063c0f30d"
       (reference "U12") (unit 1) (value "ST_GLUE_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/e8d98e69-88fb-4056-b4c2-387b4a65667b"
+      (reference "U13") (unit 1) (value "1489_SOCKET") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/ff477755-8c3a-4f5d-b3a3-1dec3fab14c3"
+      (reference "U14") (unit 1) (value "1488_PHY") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
+    )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062c846a6"
       (reference "U15") (unit 1) (value "ST_MMU_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
