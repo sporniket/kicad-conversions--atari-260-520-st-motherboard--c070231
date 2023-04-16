@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 140f3c51-9347-4b10-9448-8e6b70483969)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "Converted schematics of Atari 260/520 ST")
+    (date "2023-04-16")
+    (rev "0")
+    (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
+    (comment 2 "Original repository : https://github.com/…")
+    (comment 4 "Reference : C070231")
+  )
+
+  (lib_symbols
+  )
+
+)

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-04-15")
+    (date "2023-04-16")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -114,6 +114,18 @@
     )
   )
 
+  (sheet (at 25.4 57.15) (size 160.02 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3540a282-3d60-41a6-91eb-10c674ce4d4d)
+    (property "Sheet name" "U11–68901" (id 0) (at 25.4 56.1734 0)
+      (effects (font (size 1.8 1.8)) (justify left bottom))
+    )
+    (property "Sheet file" "subsheet_100.kicad_sch" (id 1) (at 25.4 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 25.4 222.25) (size 160.02 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -134,6 +146,7 @@
     (path "/00000000-0000-0000-0000-00006351bff4" (page "5"))
     (path "/00000000-0000-0000-0000-000063c0e747" (page "6"))
     (path "/5b318927-956e-4f28-80bb-c09676827d9a" (page "7"))
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d" (page "8"))
   )
 
   (symbol_instances
