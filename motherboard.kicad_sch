@@ -121,7 +121,7 @@
     (property "Sheet name" "U10-68000 ; U36–37–Reset circuit" (id 0) (at 25.4 221.2734 0)
       (effects (font (size 1.8 1.8)) (justify left bottom))
     )
-    (property "Sheet file" "subsheet_105.kicad_sch" (id 1) (at 25.4 226.6446 0)
+    (property "Sheet file" "subsheet_205.kicad_sch" (id 1) (at 25.4 226.6446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
