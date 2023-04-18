@@ -118,7 +118,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 3540a282-3d60-41a6-91eb-10c674ce4d4d)
-    (property "Sheet name" "U11–68901" (id 0) (at 25.4 56.1734 0)
+    (property "Sheet name" "U11–68901 ; U13–14 J4–RS-232 port" (id 0) (at 25.4 56.1734 0)
       (effects (font (size 1.8 1.8)) (justify left bottom))
     )
     (property "Sheet file" "subsheet_100.kicad_sch" (id 1) (at 25.4 61.5446 0)
@@ -552,6 +552,12 @@
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/351c57b5-6190-423e-91f8-46a07041f0f4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/357f433f-d49c-4281-8eed-e5b1ee6ed10a"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/37f81a98-aeea-46c5-8b9d-a37c83c7adae"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/3fe0de95-c3a8-4b89-9907-9c53930b061e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -570,8 +576,17 @@
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/4ef0a41d-d5eb-47ab-a511-a19bc0fb1afe"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/509045a6-efd8-4f8e-acfb-a9707399fbe2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/53316c2c-d36c-4f57-95c5-96ca6301eb48"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/5c980244-6080-42b6-8ab6-bb8e9af847bb"
+      (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/642f020a-7fa2-4b37-8242-6ba51b333e41"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/6e050f2e-304d-4f13-9dfd-871a6091f20f"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
@@ -591,6 +606,9 @@
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/80e4d482-dadd-45ef-9576-d2f3729f872a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/89477fbe-9f1f-4284-99de-73ccb1bcefb7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/94303496-b6a6-44ae-9a10-30437b7f8e3a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -606,8 +624,14 @@
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/a5d4860a-f3fa-4eec-8ca5-e9c7c268498b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/ae517775-bb62-452e-b7a8-10de99cf5a49"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/aef83542-6d1d-45bb-ab3e-13f71eacfc03"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/c6985745-1148-46fe-a974-c9be25ea4dc9"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/cafa14df-1529-40dd-a9ee-ae66b926774e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -617,6 +641,9 @@
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/d8f6467f-cc89-4d4e-8ca2-c195ac9733c5"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/d9c83be6-b85a-4e4f-a6e5-f36cb89df2d2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/e676224d-7d56-4466-9d3b-d0a972a08bd5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -628,6 +655,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/f9b98555-db21-40ca-b3e6-907bd3e24c82"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/fb825170-494e-4223-b371-f01b17f93935"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
@@ -663,8 +693,29 @@
     (path "/00000000-0000-0000-0000-000063c0e747/a122b196-f93e-459d-9301-55d8c62b7855"
       (reference "C13") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/43d7b22d-2dd7-4d82-b9c2-272817e94fb8"
+      (reference "C15") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062fa5950"
       (reference "C16") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/01528395-353f-4459-928b-d87defe4df30"
+      (reference "C17") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/31fc1b3c-3c8b-4f3a-8d31-4cee81e01d5d"
+      (reference "C18") (unit 1) (value "100pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/3b1e594a-5d96-4c2d-bf4a-2f7f9a5d2c44"
+      (reference "C19") (unit 1) (value "100pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/84d4da5a-7992-440f-a341-52286ffea62a"
+      (reference "C20") (unit 1) (value "100pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/3cc5c586-a626-47eb-a4f5-cbe96d0dc46e"
+      (reference "C21") (unit 1) (value "100pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/9a5f4db9-ab1f-48e4-821b-aba66949bd51"
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062f6aeb5"
       (reference "C25") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1084,10 +1135,10 @@
       (reference "U12") (unit 1) (value "ST_GLUE_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/e8d98e69-88fb-4056-b4c2-387b4a65667b"
-      (reference "U13") (unit 1) (value "1489_SOCKET") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
+      (reference "U13") (unit 1) (value "MC1489") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/ff477755-8c3a-4f5d-b3a3-1dec3fab14c3"
-      (reference "U14") (unit 1) (value "1488_PHY") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
+      (reference "U14") (unit 1) (value "MC1488") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062c846a6"
       (reference "U15") (unit 1) (value "ST_MMU_PHY") (footprint "Package_LCC:PLCC-68_THT-Socket")
