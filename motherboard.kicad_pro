@@ -493,6 +493,10 @@
     [
       "3540a282-3d60-41a6-91eb-10c674ce4d4d",
       "U11–68901 ; U13–14 J4–RS-232 port"
+    ],
+    [
+      "3f88e458-4d53-4de4-ada5-f2535e8a83f8",
+      "U21–Acia ; J10–11–12–Joystick, mouse, keyboard ports"
     ]
   ],
   "text_variables": {}
