@@ -1378,7 +1378,7 @@
   (symbol (lib_id "acia:MC6850_PHY") (at 73.66 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5d1ec5f8-02c3-44c5-90a3-909e329c7b96)
-    (property "Reference" "U?" (id 0) (at 73.66 69.85 0))
+    (property "Reference" "U20" (id 0) (at 73.66 69.85 0))
     (property "Value" "MC6850_PHY" (id 1) (at 73.66 72.39 0)
       (effects (font (size 1.27 1.27) bold))
     )

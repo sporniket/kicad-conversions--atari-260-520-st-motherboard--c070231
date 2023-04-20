@@ -1373,6 +1373,9 @@
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062fadb15"
       (reference "U18") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/5d1ec5f8-02c3-44c5-90a3-909e329c7b96"
+      (reference "U20") (unit 1) (value "MC6850_PHY") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
+    )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/6b34404d-b75f-46ef-9d0a-e459aaeb1f19"
       (reference "U21") (unit 1) (value "MC6850_PHY") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
     )
@@ -1441,9 +1444,6 @@
     )
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062ef46c4"
       (reference "U45") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/5d1ec5f8-02c3-44c5-90a3-909e329c7b96"
-      (reference "U?") (unit 1) (value "MC6850_PHY") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/077aef26-8570-4a7e-aee4-026ebfa43abc"
       (reference "Y1") (unit 1) (value "2.4576 MHz") (footprint "")
