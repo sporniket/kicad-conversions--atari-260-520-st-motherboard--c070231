@@ -497,6 +497,10 @@
     [
       "3f88e458-4d53-4de4-ada5-f2535e8a83f8",
       "U21–Acia ; J10–11–12–Joystick, mouse, keyboard ports"
+    ],
+    [
+      "58236c22-0832-4927-a33f-1b37fe7d1f45",
+      "U20–Acia ; U35–39 J7–8–Midi ports"
     ]
   ],
   "text_variables": {}

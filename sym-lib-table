@@ -13,4 +13,6 @@
   (lib (name "mc1488")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/mc1488.lib")(options "")(descr ""))
   (lib (name "mc1489")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/mc1489.lib")(options "")(descr ""))
   (lib (name "acia")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/acia.lib")(options "")(descr ""))
+  (lib (name "74x04")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x04.lib")(options "")(descr ""))
+  (lib (name "pc900-dip6")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/pc900-dip6.lib")(options "")(descr ""))
 )
