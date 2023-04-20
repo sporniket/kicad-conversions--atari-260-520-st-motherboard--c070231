@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-04-19")
+    (date "2023-04-20")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -567,6 +567,9 @@
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/19224137-39a1-4ba4-b36c-8e5889b93448"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/1b615e1c-9b3b-4d19-b7ec-8e9891e3e97a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/1c475bfa-e120-49ba-9240-11ce9a912c85"
