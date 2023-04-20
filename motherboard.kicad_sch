@@ -593,6 +593,9 @@
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/2930e341-2785-4482-ae8e-92a994493223"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/2d32f82e-3124-4cd6-bd55-6a096413bf2f"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/300b3a8f-dfc7-44c7-9956-39bed3287c9b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -652,6 +655,12 @@
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/5c980244-6080-42b6-8ab6-bb8e9af847bb"
       (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/5f7cec02-20d7-4a33-b00c-fb5a8cd4d3c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/6062f040-65bb-4b0c-b970-129259598132"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/61a24b5a-adf4-41bd-9519-91cf2549a038"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
@@ -836,6 +845,9 @@
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/9a5f4db9-ab1f-48e4-821b-aba66949bd51"
       (reference "C22") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/066a5b2d-4303-4529-a078-f7519a5d3d92"
+      (reference "C23") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/06beab85-6d78-4c46-bc50-da3e7d8d98e3"
       (reference "C24") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -887,6 +899,9 @@
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062edd176"
       (reference "C45") (unit 1) (value "22uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ce5f163a-9943-459f-bd89-1c31e241d0a2"
+      (reference "C46") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/9bfde444-b810-4ed6-ba17-a4962c4c8222"
       (reference "C47") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -911,6 +926,9 @@
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062ee0e8c"
       (reference "C57") (unit 1) (value "22uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/b12a1737-c49e-4626-8749-ae4376f94923"
+      (reference "C59") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/0df7b336-06c3-4cad-9a2e-f58d4fc33819"
       (reference "C70") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -934,15 +952,6 @@
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/8749c304-9e63-4b89-a582-447b685a9a75"
       (reference "C105") (unit 1) (value "22uF") (footprint "")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/066a5b2d-4303-4529-a078-f7519a5d3d92"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/b12a1737-c49e-4626-8749-ae4376f94923"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ce5f163a-9943-459f-bd89-1c31e241d0a2"
-      (reference "C?") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062eed197"
       (reference "CR1") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
@@ -1088,9 +1097,6 @@
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/7a7f95b3-588a-41a5-814a-9e9e6853175d"
       (reference "L92") (unit 1) (value "Filter LCL") (footprint "")
     )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/49028e32-30bd-47eb-9e53-b83a0a7bf657"
-      (reference "L?") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
-    )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f05e54"
       (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
@@ -1219,6 +1225,21 @@
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/ac65e2ef-8033-478f-ad51-a201522e70e9"
       (reference "R75") (unit 1) (value "4K7") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/bf8979ef-3f4f-47ef-a34e-95025e876970"
+      (reference "R77") (unit 1) (value "220") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/75c7355f-d23f-4222-a7db-f3daac1cd896"
+      (reference "R78") (unit 1) (value "220") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/9a684e59-d7c0-4da7-b3a3-2ce0580a3af7"
+      (reference "R79") (unit 1) (value "220") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/651da63c-d624-445e-ada8-1c3abd4f29cc"
+      (reference "R80") (unit 1) (value "220") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/47de9754-16a1-48c9-846b-4a2a9dec7136"
+      (reference "R81") (unit 1) (value "4K7") (footprint "")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/19652f52-4ebe-4276-b1bc-827e10b12f00"
       (reference "R82") (unit 1) (value "12K") (footprint "")
@@ -1394,6 +1415,9 @@
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062eda9c9"
       (reference "U34") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ed054371-041d-49c7-833b-a34f96268086"
+      (reference "U35") (unit 1) (value "74LS04_PHY") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/5e2415dd-f03d-4126-9b24-969a88411d85"
       (reference "U36") (unit 1) (value "74LS05_PHY") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
@@ -1402,6 +1426,9 @@
     )
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062edd17c"
       (reference "U38") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/c4d6c628-cb59-4fe8-91f8-17491a1039a4"
+      (reference "U39") (unit 1) (value "PC900_PHY") (footprint "Package_DIP:DIP-6_W7.62mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062ee0e92"
       (reference "U42") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
@@ -1417,12 +1444,6 @@
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/5d1ec5f8-02c3-44c5-90a3-909e329c7b96"
       (reference "U?") (unit 1) (value "MC6850_PHY") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/c4d6c628-cb59-4fe8-91f8-17491a1039a4"
-      (reference "U?") (unit 1) (value "PC900_PHY") (footprint "Package_DIP:DIP-6_W7.62mm_LongPads")
-    )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ed054371-041d-49c7-833b-a34f96268086"
-      (reference "U?") (unit 1) (value "74LS04_PHY") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/077aef26-8570-4a7e-aee4-026ebfa43abc"
       (reference "Y1") (unit 1) (value "2.4576 MHz") (footprint "")
