@@ -501,6 +501,10 @@
     [
       "58236c22-0832-4927-a33f-1b37fe7d1f45",
       "U20–Acia ; U35–39 J7–8–Midi ports"
+    ],
+    [
+      "0a8dd614-bc1e-4460-8616-709830470ec1",
+      "U19–40–YM2149 ; J5–Parallel port"
     ]
   ],
   "text_variables": {}
