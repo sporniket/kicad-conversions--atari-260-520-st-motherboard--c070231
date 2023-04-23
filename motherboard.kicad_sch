@@ -696,6 +696,9 @@
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/509045a6-efd8-4f8e-acfb-a9707399fbe2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/52ec2a7e-12c9-45bc-8429-2634ecd1d80e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/53316c2c-d36c-4f57-95c5-96ca6301eb48"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
@@ -831,6 +834,9 @@
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/cf457088-a31f-4a8d-87f4-242a5101b351"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/d2c3c816-95b4-4d9e-8d22-94cd74310603"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/d508cc13-9491-4c1f-94cc-baecaba00c78"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -847,6 +853,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/db2168df-afaf-4732-87ed-ca54fc004028"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/dcc33069-f8dd-4972-9825-d021ae57a26d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/dfb5e7f6-c033-431b-a06d-aab52ab2901e"
@@ -884,6 +893,9 @@
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/fc402d3d-5ea4-4d01-bb00-829159355307"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/fc6387d5-6eb6-490a-9282-af222ee73b03"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/fe58514f-393b-4328-9096-a027304cd779"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -971,6 +983,9 @@
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/07877a86-cb05-4377-9584-4fb476d62a45"
       (reference "C31") (unit 1) (value "1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+    )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/5e88df41-0efc-4857-8d13-2882d92cd3a7"
+      (reference "C32") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/67d53d22-f6e3-4406-85b9-dec094d45839"
       (reference "C33") (unit 1) (value "47uF") (footprint "")
@@ -1610,6 +1625,9 @@
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/c4d6c628-cb59-4fe8-91f8-17491a1039a4"
       (reference "U39") (unit 1) (value "PC900_PHY") (footprint "Package_DIP:DIP-6_W7.62mm_LongPads")
+    )
+    (path "/0a8dd614-bc1e-4460-8616-709830470ec1/72b9dc09-6fed-4eb1-9a9f-989c8798af6d"
+      (reference "U40") (unit 1) (value "QUAD 2-INPUT NOR GATES") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-000062db00cc/00000000-0000-0000-0000-000062ee0e92"
       (reference "U42") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")

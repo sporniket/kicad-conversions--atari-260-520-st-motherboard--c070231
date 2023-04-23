@@ -16,4 +16,5 @@
   (lib (name "74x04")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x04.lib")(options "")(descr ""))
   (lib (name "pc900-dip6")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/pc900-dip6.lib")(options "")(descr ""))
   (lib (name "ym2149")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/ym2149.lib")(options "")(descr ""))
+  (lib (name "74x02")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x02.lib")(options "")(descr ""))
 )
