@@ -18,4 +18,6 @@
   (lib (name "ym2149")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/ym2149.lib")(options "")(descr ""))
   (lib (name "74x02")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x02.lib")(options "")(descr ""))
   (lib (name "st_dma_dip40")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/st_dma_dip40.lib")(options "")(descr ""))
+  (lib (name "74x06")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x06.lib")(options "")(descr ""))
+  (lib (name "wd1772")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/wd1772.lib")(options "")(descr ""))
 )
