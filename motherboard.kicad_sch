@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-04-23")
+    (date "2023-04-29")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -174,6 +174,18 @@
     )
   )
 
+  (sheet (at 25.4 97.79) (size 160.02 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a318c5d8-2e1f-4677-941e-2e6bb7098e55)
+    (property "Sheet name" "U1–DMA controller ; J2–ACSI port" (id 0) (at 25.4 96.8134 0)
+      (effects (font (size 1.8 1.8)) (justify left bottom))
+    )
+    (property "Sheet file" "subsheet_104.kicad_sch" (id 1) (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-000062c842ff" (page "2"))
@@ -186,6 +198,7 @@
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8" (page "9"))
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45" (page "10"))
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1" (page "11"))
+    (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55" (page "12"))
   )
 
   (symbol_instances
