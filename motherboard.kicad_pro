@@ -476,7 +476,7 @@
     ],
     [
       "00000000-0000-0000-0000-000062e3a54e",
-      "U31-Shifter ; J6-Video port"
+      "U31-Shifter ; J6-Video port (includes details from Sheet 3)"
     ],
     [
       "00000000-0000-0000-0000-00006351bff4",
@@ -508,7 +508,7 @@
     ],
     [
       "a318c5d8-2e1f-4677-941e-2e6bb7098e55",
-      "U1–DMA controller ; J2–ACSI port"
+      "U1–DMA controller ; J2–ACSI port ; U8–9–WD1772 ; J3–FLOPPY port"
     ]
   ],
   "text_variables": {}
