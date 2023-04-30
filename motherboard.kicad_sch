@@ -6,7 +6,7 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2023-04-29")
+    (date "2023-04-30")
     (rev "0")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
@@ -186,6 +186,18 @@
     )
   )
 
+  (sheet (at 25.4 107.95) (size 160.02 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f1051355-9a2c-4b2d-a09c-1966664c85a9)
+    (property "Sheet name" "J9–Power socket" (id 0) (at 25.4 107.2384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "subsheet_105.kicad_sch" (id 1) (at 25.4 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-000062c842ff" (page "2"))
@@ -199,6 +211,7 @@
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45" (page "10"))
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1" (page "11"))
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55" (page "12"))
+    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9" (page "13"))
   )
 
   (symbol_instances
