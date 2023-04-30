@@ -824,7 +824,7 @@
 
   (no_connect (at 104.14 124.46) (uuid 5e0aad83-8c4e-4c52-a644-c016e8645d51))
   (no_connect (at 137.16 127) (uuid a69e56fc-926f-4e24-ae32-92a2224e0d41))
-  (no_connect (at 137.16 129.54) (uuid a69e56fc-926f-4e24-ae32-92a2224e0d41))
+  (no_connect (at 137.16 129.54) (uuid a69e56fc-926f-4e24-ae32-92a2224e0d42))
 
   (wire (pts (xy 137.16 121.92) (xy 139.7 121.92))
     (stroke (width 0) (type default) (color 0 0 0 0))

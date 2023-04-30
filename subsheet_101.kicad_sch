@@ -420,23 +420,29 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "Device:FerriteBead_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at 1.905 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_Ferrite_Bead_Small" (id 1) (at 1.905 -1.27 0)
+      (property "Value" "FerriteBead_Small" (id 1) (at 1.905 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at -1.778 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Ferrite_Bead_Small_0_1"
+      (property "ki_description" "Ferrite bead, small symbol" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FerriteBead_Small_0_1"
         (polyline
           (pts
             (xy 0 -1.27)
@@ -465,7 +471,7 @@
           (fill (type none))
         )
       )
-      (symbol "Ferrite_Bead_Small_1_1"
+      (symbol "FerriteBead_Small_1_1"
         (pin passive line (at 0 2.54 270) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1727,7 +1733,7 @@
     (pin "1" (uuid aaabe730-b151-43df-9fb2-ebe60a187659))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 92.71 72.39 270) (unit 1)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 92.71 72.39 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2dcf400e-253a-4d40-b6e6-71e7ebdb3f60)
     (property "Reference" "L27" (id 0) (at 86.36 71.12 90)
@@ -1746,7 +1752,7 @@
     (pin "2" (uuid 19b36fad-446c-41c6-bb3f-817ff677451d))
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 55.88 101.6 180) (unit 1)
+  (symbol (lib_id "Device:FerriteBead_Small") (at 55.88 101.6 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3cd205fa-2e11-404e-a12f-006219ea1bf6)
     (property "Reference" "L30" (id 0) (at 58.42 100.33 0)
