@@ -467,6 +467,30 @@
       ""
     ],
     [
+      "3540a282-3d60-41a6-91eb-10c674ce4d4d",
+      "U11–68901 ; U13–14 J4–RS-232 port"
+    ],
+    [
+      "3f88e458-4d53-4de4-ada5-f2535e8a83f8",
+      "U21–Acia ; J10–11–12–Joystick, mouse, keyboard ports"
+    ],
+    [
+      "58236c22-0832-4927-a33f-1b37fe7d1f45",
+      "U20–Acia ; U35–39 J7–8–Midi ports"
+    ],
+    [
+      "0a8dd614-bc1e-4460-8616-709830470ec1",
+      "U19–40–YM2149 ; J5–Parallel port"
+    ],
+    [
+      "a318c5d8-2e1f-4677-941e-2e6bb7098e55",
+      "U1–DMA controller ; J2–ACSI port ; U8–9–WD1772 ; J3–FLOPPY port"
+    ],
+    [
+      "f1051355-9a2c-4b2d-a09c-1966664c85a9",
+      "J9–Power socket"
+    ],
+    [
       "00000000-0000-0000-0000-000062c842ff",
       "U15–MMU ; U22-23-26-27–Bus isolator"
     ],
@@ -491,28 +515,8 @@
       "U10-68000 ; U36–37–Reset circuit"
     ],
     [
-      "3540a282-3d60-41a6-91eb-10c674ce4d4d",
-      "U11–68901 ; U13–14 J4–RS-232 port"
-    ],
-    [
-      "3f88e458-4d53-4de4-ada5-f2535e8a83f8",
-      "U21–Acia ; J10–11–12–Joystick, mouse, keyboard ports"
-    ],
-    [
-      "58236c22-0832-4927-a33f-1b37fe7d1f45",
-      "U20–Acia ; U35–39 J7–8–Midi ports"
-    ],
-    [
-      "0a8dd614-bc1e-4460-8616-709830470ec1",
-      "U19–40–YM2149 ; J5–Parallel port"
-    ],
-    [
-      "a318c5d8-2e1f-4677-941e-2e6bb7098e55",
-      "U1–DMA controller ; J2–ACSI port ; U8–9–WD1772 ; J3–FLOPPY port"
-    ],
-    [
-      "f1051355-9a2c-4b2d-a09c-1966664c85a9",
-      "J9–Power socket"
+      "2a76ccff-a4af-4964-bb63-bf706778208d",
+      "Y2–32MHz clock ; Y3–U41–Modulator clock"
     ]
   ],
   "text_variables": {}
