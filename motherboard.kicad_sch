@@ -1402,9 +1402,6 @@
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/5aa8cec3-cc14-4157-ac03-b1d4985e5465"
       (reference "C106") (unit 1) (value "470uF") (footprint "")
     )
-    (path "/2a76ccff-a4af-4964-bb63-bf706778208d/4493559e-e65b-4f75-b2fd-3f670a534853"
-      (reference "C?") (unit 1) (value "1SV69") (footprint "")
-    )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/eb4d6421-4f4a-45ac-9088-4115cccb397a"
       (reference "C?") (unit 1) (value "0.022uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
@@ -1431,6 +1428,9 @@
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ec97a171-edc0-4e38-b96d-fde17e02496e"
       (reference "CR7") (unit 1) (value "1N914") (footprint "")
+    )
+    (path "/2a76ccff-a4af-4964-bb63-bf706778208d/4493559e-e65b-4f75-b2fd-3f670a534853"
+      (reference "CR8") (unit 1) (value "1SV69") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e57487"
       (reference "CR9") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
