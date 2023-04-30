@@ -25,9 +25,9 @@ As the name implies **Sporniket's conversion of the schematics of the 'Atari 260
 
 ## 2. What should you know before using **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** ?
 
-As the name implies, **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is made using [Kicad](https://www.kicad.org/).
+As the name implies, **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is made using [Kicad 6](https://www.kicad.org/).
 
-The git repository use several submodules that one has to fetch in order to get the symbols, footprint and 3dmodels. One submodule requires [python3](https://www.python.org) and [GNU make](https://www.gnu.org/software/make/) to generate the libraries of symbols for integrated circuits.
+The git repository use several submodules that one has to fetch in order to get the symbols, footprint and 3dmodels. 
 
 This project contains a PCB design that is an **approximate reconstruction** :
 
