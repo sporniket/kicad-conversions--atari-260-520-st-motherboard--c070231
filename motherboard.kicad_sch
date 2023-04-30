@@ -1663,9 +1663,6 @@
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f05e54"
       (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
-    (path "/2a76ccff-a4af-4964-bb63-bf706778208d/fc516cb1-465d-42b9-939f-97c424124214"
-      (reference "Q2") (unit 1) (value "2N3904") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e634db"
       (reference "Q3") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
@@ -1680,6 +1677,9 @@
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/6ff0320c-ad87-4305-973e-b395ec008dc5"
       (reference "Q7") (unit 1) (value "2N3906") (footprint "")
+    )
+    (path "/2a76ccff-a4af-4964-bb63-bf706778208d/fc516cb1-465d-42b9-939f-97c424124214"
+      (reference "Q8") (unit 1) (value "2N3904") (footprint "")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/cba9d6cc-b8d0-4830-a845-6268a1529703"
       (reference "Q9") (unit 1) (value "2N3906") (footprint "")
@@ -1990,11 +1990,11 @@
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/4a695da9-73c5-4eda-80d5-d4bc04662a45"
       (reference "RP6") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
     )
+    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/1134a72b-65c1-4ab6-9e0f-77dd67be45e6"
+      (reference "SW1") (unit 1) (value "SW_SPST") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/c40b4c5e-0054-472b-92ef-7d5a32a3dd16"
       (reference "SW2") (unit 1) (value "RESET") (footprint "")
-    )
-    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/1134a72b-65c1-4ab6-9e0f-77dd67be45e6"
-      (reference "SW?") (unit 1) (value "SW_SPST") (footprint "")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/14da9a1f-8b92-44a8-b9c8-89600becee9e"
       (reference "U1") (unit 1) (value "ST_DMA_DIP40_PHY") (footprint "Package_DIP:DIP-40_W15.24mm_LongPads")

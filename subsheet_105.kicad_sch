@@ -941,7 +941,6 @@
     )
   )
 
-
   (junction (at 123.19 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 06d153af-c43d-46ce-aeab-c2fa8b5b386d)
   )
@@ -1237,7 +1236,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 100.33 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1134a72b-65c1-4ab6-9e0f-77dd67be45e6)
-    (property "Reference" "SW?" (id 0) (at 100.33 29.845 0))
+    (property "Reference" "SW1" (id 0) (at 100.33 29.845 0))
     (property "Value" "SW_SPST" (id 1) (at 100.33 35.56 0))
     (property "Footprint" "" (id 2) (at 100.33 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
