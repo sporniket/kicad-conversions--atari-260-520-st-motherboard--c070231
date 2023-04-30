@@ -1102,6 +1102,9 @@
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/f4fbc4f8-f328-431b-af14-a7b4810b3bd1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/f864abba-0520-43da-81ba-2a09c203cb1e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/f9b98555-db21-40ca-b3e6-907bd3e24c82"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1329,6 +1332,9 @@
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/8749c304-9e63-4b89-a582-447b685a9a75"
       (reference "C105") (unit 1) (value "22uF") (footprint "")
+    )
+    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/5aa8cec3-cc14-4157-ac03-b1d4985e5465"
+      (reference "C106") (unit 1) (value "470uF") (footprint "")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/f8e8f650-03c4-471d-a9f8-cd7d2f031915"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
