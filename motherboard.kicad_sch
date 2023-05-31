@@ -1380,7 +1380,7 @@
       (reference "C74") (unit 1) (value "4700pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/b5ff4dac-975c-444f-966d-5615aa369e28"
-      (reference "C76") (unit 1) (value "1SV69") (footprint "")
+      (reference "C76") (unit 1) (value "1SV69") (footprint "commons-passives_THT:Passive_THT_capacitor_W2.54mm_L12.70mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/2b357996-174d-463f-898b-8d046769a4a0"
       (reference "C77") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1446,10 +1446,10 @@
       (reference "CR6") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/ec97a171-edc0-4e38-b96d-fde17e02496e"
-      (reference "CR7") (unit 1) (value "1N914") (footprint "")
+      (reference "CR7") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/4493559e-e65b-4f75-b2fd-3f670a534853"
-      (reference "CR8") (unit 1) (value "1SV69") (footprint "")
+      (reference "CR8") (unit 1) (value "1SV69") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e57487"
       (reference "CR9") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
@@ -1458,22 +1458,22 @@
       (reference "CR10") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/8d90f663-1cea-4eaa-9b96-2ef0f6f234bf"
-      (reference "H1") (unit 1) (value "6-32") (footprint "")
+      (reference "H1") (unit 1) (value "6-32") (footprint "MountingHole:MountingHole_3.7mm_Pad_Via")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/86bdc234-e7e2-438b-990c-cc9d1524672e"
-      (reference "H2") (unit 1) (value "6-32") (footprint "")
+      (reference "H2") (unit 1) (value "6-32") (footprint "MountingHole:MountingHole_3.7mm_Pad_Via")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/e017bddc-b2be-4f91-b504-4fffd62cf319"
-      (reference "H3") (unit 1) (value "6-32") (footprint "")
+      (reference "H3") (unit 1) (value "6-32") (footprint "MountingHole:MountingHole_3.7mm_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-0000636a7af8"
       (reference "J1") (unit 1) (value "Cartridge port") (footprint "atari-interconnect:socket-edge-pcb_40p_P2.01mm_no_post")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/dd9b6375-396f-484e-b230-1a97196c014b"
-      (reference "J2") (unit 1) (value "DB19S ACSI") (footprint "")
+      (reference "J2") (unit 1) (value "DB19S ACSI") (footprint "atari-interconnect:DSUB-19_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/19ee421c-d11f-4b85-bc11-c447a0527da3"
-      (reference "J3") (unit 1) (value "Floppy disk") (footprint "")
+      (reference "J3") (unit 1) (value "Floppy disk") (footprint "atari-interconnect:socket-din-14")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/2495c9c9-e4cd-4aff-b978-6d4d80616979"
       (reference "J4") (unit 1) (value "RS-232") (footprint "")

@@ -1776,7 +1776,7 @@
     (uuid ec97a171-edc0-4e38-b96d-fde17e02496e)
     (property "Reference" "CR7" (id 0) (at 33.02 171.45 0))
     (property "Value" "1N914" (id 1) (at 33.02 176.53 0))
-    (property "Footprint" "" (id 2) (at 33.02 173.99 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" (id 2) (at 33.02 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 33.02 173.99 0)
