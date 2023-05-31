@@ -2773,7 +2773,7 @@
     (property "Value" "4K7" (id 1) (at 139.7 105.41 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 138.43 106.68 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (id 2) (at 138.43 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 106.68 0)
