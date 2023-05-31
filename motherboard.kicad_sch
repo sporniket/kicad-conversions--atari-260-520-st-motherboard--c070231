@@ -1175,6 +1175,12 @@
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/f3fe31c1-1f93-4c9f-83bb-a3556d725c46"
       (reference "#PWR0394") (unit 1) (value "GND") (footprint "")
     )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/0df4501c-4c49-4981-b997-c05ef8c8bb4f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/876b0674-6c7c-43c0-a409-9f306159a6a4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/b702c303-47a1-429a-9aa3-59808061e5d8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
