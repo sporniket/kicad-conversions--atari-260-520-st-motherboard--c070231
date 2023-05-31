@@ -1275,16 +1275,16 @@
       (reference "C30") (unit 1) (value "22uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/07877a86-cb05-4377-9584-4fb476d62a45"
-      (reference "C31") (unit 1) (value "1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+      (reference "C31") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/f8e8f650-03c4-471d-a9f8-cd7d2f031915"
       (reference "C32") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/67d53d22-f6e3-4406-85b9-dec094d45839"
-      (reference "C33") (unit 1) (value "47uF") (footprint "")
+      (reference "C33") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/811d7616-4295-4009-abe1-926be33cd2b2"
-      (reference "C34") (unit 1) (value "1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+      (reference "C34") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062ef5f08"
       (reference "C35") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1329,7 +1329,7 @@
       (reference "C49") (unit 1) (value "0.01uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/fb7218d4-df32-41e1-9dce-2b9f4dc870ef"
-      (reference "C50") (unit 1) (value "22uF") (footprint "")
+      (reference "C50") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f5601f"
       (reference "C51") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1341,7 +1341,7 @@
       (reference "C54") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/336d836f-5cc4-4f9d-9e69-3213e129d423"
-      (reference "C55") (unit 1) (value "22uF") (footprint "")
+      (reference "C55") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/3328656b-cbaa-41ca-abca-a9a79048b35d"
       (reference "C56") (unit 1) (value "68pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1422,10 +1422,10 @@
       (reference "C104") (unit 1) (value "470uF") (footprint "commons-passives_THT:Passive_THT_capacitor_polarized_W10.16mm_L30.48mm")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/8749c304-9e63-4b89-a582-447b685a9a75"
-      (reference "C105") (unit 1) (value "22uF") (footprint "")
+      (reference "C105") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/5aa8cec3-cc14-4157-ac03-b1d4985e5465"
-      (reference "C106") (unit 1) (value "470uF") (footprint "")
+      (reference "C106") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062eed197"
       (reference "CR1") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
@@ -1509,37 +1509,37 @@
       (reference "L3") (unit 1) (value "SNH19L-0601-4") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/a0066a27-c5b6-4741-82c8-6ce1f5099edd"
-      (reference "L5") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L5") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/d8ef7136-ac10-4618-9ba7-3cc4eace83cf"
-      (reference "L6") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L6") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/92a29943-544a-41c4-ac2d-cc72337d622d"
-      (reference "L7") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L7") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/572acea7-6ede-4e44-8311-0310eebe69d5"
-      (reference "L8") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L8") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/958ea798-f338-419a-8102-2f666ca18eef"
-      (reference "L9") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L9") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/e286e0ac-7338-4082-ba7d-a12c4cb21a4d"
-      (reference "L10") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L10") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/80caab4c-db87-46df-a4d6-dd5220b8491b"
-      (reference "L12") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L12") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/27760777-b406-49b5-a75a-151389ca2898"
-      (reference "L13") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L13") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/125e0332-6c9f-4243-8d47-091a974d1ced"
-      (reference "L14") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L14") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/bf3161d0-be4d-4dc5-aa55-9bed0b9ee6a8"
-      (reference "L15") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L15") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/4a03f49c-90c2-4a56-bb74-1e5ae0da5f1b"
-      (reference "L16") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L16") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f036ee"
       (reference "L17") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
@@ -1548,16 +1548,16 @@
       (reference "L18") (unit 1) (value "0.27uH") (footprint "commons-passives_THT:Passive_THT_inductor_W5.08mm_L15.24mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/0fd1da2e-6add-4469-b047-5bd4db025c56"
-      (reference "L19") (unit 1) (value "see table") (footprint "")
+      (reference "L19") (unit 1) (value "see table") (footprint "commons-passives_THT:Passive_THT_inductor_W5.08mm_L15.24mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/d9e298ab-4963-46e6-af09-d289144b8c57"
-      (reference "L20") (unit 1) (value "0.27uH") (footprint "")
+      (reference "L20") (unit 1) (value "0.27uH") (footprint "commons-passives_THT:Passive_THT_inductor_W5.08mm_L15.24mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062ebbe0a"
       (reference "L21") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/1deeff61-1863-4ebb-a3fb-3ea3a9d3803c"
-      (reference "L22") (unit 1) (value "1uH") (footprint "")
+      (reference "L22") (unit 1) (value "1uH") (footprint "commons-passives_THT:Passive_THT_inductor_W5.08mm_L15.24mm")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-0000636d7986"
       (reference "L23") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
@@ -1587,100 +1587,100 @@
       (reference "L31") (unit 1) (value "Ferrite bead") (footprint "commons-passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/b7e84aaa-1e1c-433a-ba75-27c40efb55ab"
-      (reference "L55") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L55") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/b249df62-e055-4071-bb64-41f9f16f76ae"
-      (reference "L56") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L56") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/e65c3e5d-3f5c-478c-a3e8-30e8dd0faa7e"
-      (reference "L57") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L57") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/42a2e288-f3de-42fa-afb5-d9d03e142da9"
-      (reference "L58") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L58") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/1377153a-1c4f-4542-9295-bb0ceb2157b5"
-      (reference "L59") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L59") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/84ca2a3c-44f6-4cbe-9152-d5b091f3ea25"
-      (reference "L60") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L60") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/40b44c73-2b3c-4591-8214-5579e77f516e"
-      (reference "L61") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L61") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/337642f8-2bdc-4f5b-b55e-4ed5d6a2c877"
-      (reference "L62") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L62") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/076ff8d7-6bf6-411c-a2d0-2d7115198571"
-      (reference "L63") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L63") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/e364b1fc-1e18-42d5-bf10-86ca6a64756f"
-      (reference "L64") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L64") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/8b7d2435-6514-432c-8788-adbeab03effb"
-      (reference "L65") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L65") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/a318c5d8-2e1f-4677-941e-2e6bb7098e55/dc47f395-cf7c-4489-a608-80ece54b51d0"
-      (reference "L66") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L66") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/b0623f2a-11f9-460d-87be-da0320ab8257"
-      (reference "L67") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L67") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/81d985a9-2a3b-48d3-8ee0-a6b910918616"
-      (reference "L68") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L68") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/491d3c74-a9bb-43a3-8519-8139dfda6074"
-      (reference "L69") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L69") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/2d2d538e-d0f3-423d-860f-e1772f89379e"
-      (reference "L70") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L70") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/1882572b-1db6-465d-860d-4ddaf1600639"
-      (reference "L71") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L71") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/bdd50457-ece0-4051-8b36-d49ebefbb69e"
-      (reference "L72") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L72") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/06e5d546-ec7f-4529-9679-5576442ede69"
-      (reference "L73") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L73") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/41c489ff-9d40-48e8-9fc6-561fa36611d5"
-      (reference "L74") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L74") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/ba203321-a89d-4d09-b2a2-874911e4c942"
-      (reference "L75") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L75") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/4b3d9a9a-fd4a-4718-8c25-833c484cb53c"
-      (reference "L76") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L76") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/35234821-c827-400a-85ce-af325f950da9"
-      (reference "L77") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L77") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/7ebbf942-ed73-4914-a223-e753efc3d98b"
-      (reference "L78") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L78") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/b253deb8-fe86-4a91-b965-66b9919856f2"
-      (reference "L79") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L79") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/7e67ce79-61d2-4721-8c6c-04dd047c13f0"
-      (reference "L80") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L80") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/f16d8d57-5aa0-457c-9072-160890402041"
-      (reference "L81") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L81") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/2813fa97-922d-4a7c-b300-eaf83ff3bc51"
-      (reference "L82") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L82") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/aae92d59-3239-430d-97ec-70f562c2893b"
-      (reference "L83") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L83") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/c59b063e-b5ea-4c99-b1db-42b4a8f16c89"
-      (reference "L91") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L91") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/7a7f95b3-588a-41a5-814a-9e9e6853175d"
-      (reference "L92") (unit 1) (value "Filter LCL") (footprint "")
+      (reference "L92") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/08615cc4-0083-43c6-9fe8-1e1e99719004"
-      (reference "Q1") (unit 1) (value "2N3904") (footprint "")
+      (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062f05e54"
       (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
@@ -1695,22 +1695,22 @@
       (reference "Q5") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/c7d285ea-28d0-478b-a201-51cf3bc0a04c"
-      (reference "Q6") (unit 1) (value "2N3904") (footprint "")
+      (reference "Q6") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/6ff0320c-ad87-4305-973e-b395ec008dc5"
-      (reference "Q7") (unit 1) (value "2N3906") (footprint "")
+      (reference "Q7") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/fc516cb1-465d-42b9-939f-97c424124214"
-      (reference "Q8") (unit 1) (value "2N3904") (footprint "")
+      (reference "Q8") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/cba9d6cc-b8d0-4830-a845-6268a1529703"
-      (reference "Q9") (unit 1) (value "2N3906") (footprint "")
+      (reference "Q9") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e6e7ac"
       (reference "Q10") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/9fd64555-bc4c-4e1d-8f40-ae22a080b1db"
-      (reference "Q11") (unit 1) (value "2N3904") (footprint "")
+      (reference "Q11") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/7070f40b-76a7-4d37-9af5-8676c4c6ebee"
       (reference "R1") (unit 1) (value "4K7") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
@@ -2154,13 +2154,13 @@
       (reference "U45") (unit 1) (value "DRAM_256K×1_PHY") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/077aef26-8570-4a7e-aee4-026ebfa43abc"
-      (reference "Y1") (unit 1) (value "2.4576 MHz") (footprint "")
+      (reference "Y1") (unit 1) (value "2.4576 MHz") (footprint "Crystal:Crystal_HC50_Vertical")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/8f85076e-9473-4f46-b243-6b3207a1c4c1"
-      (reference "Y2") (unit 1) (value "see table") (footprint "")
+      (reference "Y2") (unit 1) (value "see table") (footprint "Crystal:Crystal_HC50_Horizontal")
     )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/65abe1db-1d68-4ef2-a590-b592d1449ad5"
-      (reference "Y3") (unit 1) (value "see table") (footprint "")
+      (reference "Y3") (unit 1) (value "see table") (footprint "Crystal:Crystal_HC50_Horizontal")
     )
   )
 )

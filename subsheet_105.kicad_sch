@@ -1485,7 +1485,7 @@
     (property "Value" "470uF" (id 1) (at 138.43 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 135.89 36.83 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (id 2) (at 135.89 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 135.89 36.83 0)
