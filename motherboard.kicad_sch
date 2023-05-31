@@ -1175,14 +1175,14 @@
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/f3fe31c1-1f93-4c9f-83bb-a3556d725c46"
       (reference "#PWR0394") (unit 1) (value "GND") (footprint "")
     )
-    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/0df4501c-4c49-4981-b997-c05ef8c8bb4f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/876b0674-6c7c-43c0-a409-9f306159a6a4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0395") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/0df4501c-4c49-4981-b997-c05ef8c8bb4f"
+      (reference "#PWR0396") (unit 1) (value "GND") (footprint "")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/b702c303-47a1-429a-9aa3-59808061e5d8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0397") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-00006356e8bd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
@@ -1457,14 +1457,14 @@
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062e6d0a3"
       (reference "CR10") (unit 1) (value "1N914") (footprint "commons-passives_THT:Passive_THT_diode_W2.54mm_L12.70mm")
     )
-    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/86bdc234-e7e2-438b-990c-cc9d1524672e"
-      (reference "H?") (unit 1) (value "6-32") (footprint "")
-    )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/8d90f663-1cea-4eaa-9b96-2ef0f6f234bf"
-      (reference "H?") (unit 1) (value "6-32") (footprint "")
+      (reference "H1") (unit 1) (value "6-32") (footprint "")
+    )
+    (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/86bdc234-e7e2-438b-990c-cc9d1524672e"
+      (reference "H2") (unit 1) (value "6-32") (footprint "")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/e017bddc-b2be-4f91-b504-4fffd62cf319"
-      (reference "H?") (unit 1) (value "6-32") (footprint "")
+      (reference "H3") (unit 1) (value "6-32") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006351bff4/00000000-0000-0000-0000-0000636a7af8"
       (reference "J1") (unit 1) (value "Cartridge port") (footprint "atari-interconnect:socket-edge-pcb_40p_P2.01mm_no_post")
