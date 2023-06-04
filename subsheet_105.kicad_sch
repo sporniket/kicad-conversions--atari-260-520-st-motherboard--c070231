@@ -1444,7 +1444,7 @@
     (uuid 5498c503-239f-4d07-a47c-3a94cf0de81c)
     (property "Reference" "L3" (id 0) (at 78.74 44.45 0))
     (property "Value" "SNH19L-0601-4" (id 1) (at 78.74 59.69 0))
-    (property "Footprint" "" (id 2) (at 78.74 49.53 0)
+    (property "Footprint" "atari-passives_THT:4-CHANNELS-COMMON-MODE-DIP-14" (id 2) (at 78.74 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 78.74 49.53 0)

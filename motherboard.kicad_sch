@@ -1506,7 +1506,7 @@
       (reference "JMOD1") (unit 1) (value "Modulator") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/5498c503-239f-4d07-a47c-3a94cf0de81c"
-      (reference "L3") (unit 1) (value "SNH19L-0601-4") (footprint "")
+      (reference "L3") (unit 1) (value "SNH19L-0601-4") (footprint "atari-passives_THT:4-CHANNELS-COMMON-MODE-DIP-14")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/a0066a27-c5b6-4741-82c8-6ce1f5099edd"
       (reference "L5") (unit 1) (value "Filter LCL") (footprint "commons-passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm")
