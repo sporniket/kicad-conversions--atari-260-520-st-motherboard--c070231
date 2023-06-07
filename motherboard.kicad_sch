@@ -1476,31 +1476,31 @@
       (reference "J3") (unit 1) (value "Floppy disk") (footprint "atari-interconnect:socket-din-14")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/2495c9c9-e4cd-4aff-b978-6d4d80616979"
-      (reference "J4") (unit 1) (value "RS-232") (footprint "")
+      (reference "J4") (unit 1) (value "RS-232") (footprint "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/0a8dd614-bc1e-4460-8616-709830470ec1/8380d996-8d6e-4127-a1c1-8b2c810b9167"
-      (reference "J5") (unit 1) (value "DB25 Parallel Port") (footprint "")
+      (reference "J5") (unit 1) (value "DB25 Parallel Port") (footprint "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062ea7239"
       (reference "J6") (unit 1) (value "DIN13S") (footprint "atari-interconnect:socket-din-13")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/07091f5a-cdef-48d1-ba06-47e29e75494a"
-      (reference "J7") (unit 1) (value "MIDI IN") (footprint "")
+      (reference "J7") (unit 1) (value "MIDI IN") (footprint "commons-interconnect_THT:socket-din-5")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/988b1122-29ce-4ea1-b75c-5cc17dba92dc"
-      (reference "J8") (unit 1) (value "MIDI OUT") (footprint "")
+      (reference "J8") (unit 1) (value "MIDI OUT") (footprint "commons-interconnect_THT:socket-din-5")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/0dee18e2-5fc1-4ed0-b99f-05b50aa6dc3f"
       (reference "J9") (unit 1) (value "DIN-7 POWER") (footprint "")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/c8c2969e-8248-476e-bd70-43612519ce25"
-      (reference "J10") (unit 1) (value "Joy 1") (footprint "")
+      (reference "J10") (unit 1) (value "Joy 1") (footprint "atari-interconnect:Joystick_Port_DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/0b2a99c1-0de7-4b93-b2d9-9001fd8644b7"
-      (reference "J11") (unit 1) (value "Mouse / Joy 0") (footprint "")
+      (reference "J11") (unit 1) (value "Mouse / Joy 0") (footprint "atari-interconnect:Joystick_Port_DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm")
     )
     (path "/3f88e458-4d53-4de4-ada5-f2535e8a83f8/4c01e4ef-3f57-44b2-b397-1ac2c3d4b02b"
-      (reference "J12") (unit 1) (value "Keyboard") (footprint "")
+      (reference "J12") (unit 1) (value "Keyboard") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062e3a54e/00000000-0000-0000-0000-000062eb0c08"
       (reference "JMOD1") (unit 1) (value "Modulator") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")

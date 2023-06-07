@@ -2436,7 +2436,7 @@
     (uuid 2495c9c9-e4cd-4aff-b978-6d4d80616979)
     (property "Reference" "J4" (id 0) (at 187.96 222.25 0))
     (property "Value" "RS-232" (id 1) (at 187.96 220.345 0))
-    (property "Footprint" "" (id 2) (at 187.96 185.42 0)
+    (property "Footprint" "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" (id 2) (at 187.96 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 187.96 185.42 0)
