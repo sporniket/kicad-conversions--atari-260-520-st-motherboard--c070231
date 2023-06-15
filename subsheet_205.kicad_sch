@@ -3905,7 +3905,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RESET" (id 1) (at 29.21 84.074 0))
-    (property "Footprint" "" (id 2) (at 29.21 77.47 0)
+    (property "Footprint" "atari-interconnect:switch-spdt-momentary-action_Reset_pushbutton" (id 2) (at 29.21 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.21 77.47 0)
