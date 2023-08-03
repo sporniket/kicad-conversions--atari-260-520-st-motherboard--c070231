@@ -1995,22 +1995,22 @@
       (reference "R141") (unit 1) (value "2K2") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/fa2ed178-d71a-47cb-b52e-1065d46615ab"
-      (reference "RP1") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP1") (unit 1) (value "10K×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/2cb22489-ce82-448d-905e-01465d95bc47"
-      (reference "RP2") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP2") (unit 1) (value "10K×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/d0564698-ba14-4bda-b9e9-0b388f21bac2"
-      (reference "RP3") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP3") (unit 1) (value "10K×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/3e670fa4-4e6c-44b6-8bdb-ef4ae836a4bf"
-      (reference "RP4") (unit 1) (value "4K7×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP4") (unit 1) (value "4K7×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/7bba4360-0b90-4aaf-9fed-4f7961efe14b"
-      (reference "RP5") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP5") (unit 1) (value "10K×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/5b318927-956e-4f28-80bb-c09676827d9a/4a695da9-73c5-4eda-80d5-d4bc04662a45"
-      (reference "RP6") (unit 1) (value "10K×8") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RP6") (unit 1) (value "10K×9") (footprint "Resistor_THT:R_Array_SIP10")
     )
     (path "/f1051355-9a2c-4b2d-a09c-1966664c85a9/1134a72b-65c1-4ab6-9e0f-77dd67be45e6"
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "atari-interconnect:switch-spdt-vertical-right-angle-c-k-E101J1AV2BE2")
