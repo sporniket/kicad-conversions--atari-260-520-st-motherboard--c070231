@@ -1248,7 +1248,7 @@
       (reference "C21") (unit 1) (value "100pF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
     )
     (path "/3540a282-3d60-41a6-91eb-10c674ce4d4d/9a5f4db9-ab1f-48e4-821b-aba66949bd51"
-      (reference "C22") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm")
     )
     (path "/58236c22-0832-4927-a33f-1b37fe7d1f45/066a5b2d-4303-4529-a078-f7519a5d3d92"
       (reference "C23") (unit 1) (value "0.1uF") (footprint "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm")
