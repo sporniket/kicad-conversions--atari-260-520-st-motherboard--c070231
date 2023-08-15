@@ -1991,6 +1991,9 @@
     (path "/00000000-0000-0000-0000-000062c842ff/00000000-0000-0000-0000-000062f12fab"
       (reference "R134") (unit 1) (value "68R") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
     )
+    (path "/2a76ccff-a4af-4964-bb63-bf706778208d/96296152-cecd-4c37-a257-2ed99d59772a"
+      (reference "R140") (unit 1) (value "2K2") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
+    )
     (path "/2a76ccff-a4af-4964-bb63-bf706778208d/f13f8832-e514-4092-8d5d-d9ec084e3852"
       (reference "R141") (unit 1) (value "2K2") (footprint "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm")
     )
