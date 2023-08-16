@@ -2000,7 +2000,7 @@
     (pin "2" (uuid 22966f03-d560-4374-a62d-d3e305e96235))
   )
 
-  (symbol (lib_id "Device:Crystal_Small") (at 99.06 48.26 0) (unit 1)
+  (symbol (lib_id "Device:Crystal_Small") (at 99.06 48.26 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f85076e-9473-4f46-b243-6b3207a1c4c1)
     (property "Reference" "Y2" (id 0) (at 99.06 45.72 0))
