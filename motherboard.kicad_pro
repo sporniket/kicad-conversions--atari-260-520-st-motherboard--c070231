@@ -508,6 +508,10 @@
       {
         "netclass": "Power Default",
         "pattern": "Net-(SW1-A)"
+      },
+      {
+        "netclass": "Power Default",
+        "pattern": "+5VP"
       }
     ]
   },
