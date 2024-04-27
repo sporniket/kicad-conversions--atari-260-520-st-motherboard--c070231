@@ -3095,7 +3095,7 @@
     (property "Value" "0.1uF" (at 116.84 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" (at 114.3 143.51 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L12.70mm" (at 114.3 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 143.51 0)
