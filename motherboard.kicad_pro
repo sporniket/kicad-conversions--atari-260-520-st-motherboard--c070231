@@ -512,6 +512,10 @@
       {
         "netclass": "Power Default",
         "pattern": "+5VP"
+      },
+      {
+        "netclass": "Power Default",
+        "pattern": "/U10-68000 ; U36–37–Reset circuit/VCC"
       }
     ]
   },
