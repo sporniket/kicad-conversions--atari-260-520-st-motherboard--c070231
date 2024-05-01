@@ -2453,7 +2453,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 165.1 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bbf1426-43b9-479f-8b5a-7a848d8fdb22)
-    (property "Reference" "R3" (at 162.56 87.63 90)
+    (property "Reference" "R105" (at 162.56 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 166.37 87.63 90)
@@ -2470,7 +2470,7 @@
     (instances
       (project "motherboard"
         (path "/61fe4c73-be59-4519-98f1-a634322a841d/3540a282-3d60-41a6-91eb-10c674ce4d4d"
-          (reference "R3") (unit 1)
+          (reference "R105") (unit 1)
         )
       )
     )
