@@ -12,7 +12,7 @@
       "pads": 0.8999999761581421,
       "tracks": 0.7799999713897705,
       "vias": 1.0,
-      "zones": 0.20000000298023224
+      "zones": 0.25999999046325684
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
