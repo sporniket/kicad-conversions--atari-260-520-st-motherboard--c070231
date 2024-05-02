@@ -516,6 +516,10 @@
       {
         "netclass": "Power Default",
         "pattern": "/U10-68000 ; U36–37–Reset circuit/VCC"
+      },
+      {
+        "netclass": "Power Default",
+        "pattern": "/U21–Acia ; J10–11–12–Joystick, mouse, keyboard ports/vcc_ikbd"
       }
     ]
   },
