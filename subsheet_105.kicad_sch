@@ -1561,6 +1561,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ebf614bb-b746-4726-a709-2a7870f3a739)
   )
+  (text "West and East border, wider than original for better tolerance"
+    (at 88.9 149.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f3297467-2e73-4ad8-8d70-4d84342a4035)
+  )
 
   (symbol (lib_id "Connector:DIN-7") (at 45.72 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
@@ -1815,6 +1820,30 @@
       (project "motherboard"
         (path "/61fe4c73-be59-4519-98f1-a634322a841d/f1051355-9a2c-4b2d-a09c-1966664c85a9"
           (reference "#PWR0352") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 88.9 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 429c85fa-ab61-4eaf-b392-7a45c577f2e9)
+    (property "Reference" "H10" (at 88.9 152.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "M3" (at 88.9 154.305 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 88.9 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "motherboard"
+        (path "/61fe4c73-be59-4519-98f1-a634322a841d/f1051355-9a2c-4b2d-a09c-1966664c85a9"
+          (reference "H10") (unit 1)
         )
       )
     )
@@ -2456,6 +2485,30 @@
       (project "motherboard"
         (path "/61fe4c73-be59-4519-98f1-a634322a841d/f1051355-9a2c-4b2d-a09c-1966664c85a9"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 101.6 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ee04d235-484d-49d0-aba0-1426cea635ee)
+    (property "Reference" "H11" (at 101.6 152.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "M3" (at 101.6 154.305 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 101.6 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "motherboard"
+        (path "/61fe4c73-be59-4519-98f1-a634322a841d/f1051355-9a2c-4b2d-a09c-1966664c85a9"
+          (reference "H11") (unit 1)
         )
       )
     )
