@@ -14,7 +14,11 @@ Content
 
 ## 1. What is **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad**, and when to use it ?
 
-As the name implies **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is a project made with [Kicad](https://www.kicad.org/). I converted the available schematics of a computer from the 1980s called 'Atari ST', and there is even a PCB to serve as a non normative reference.
+As the name implies **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is a project made with [Kicad](https://www.kicad.org/). The available schematics of a computer from the 1980s called 'Atari ST' has been converted, and there is even a PCB to serve as a non normative reference.
+
+![West side overview](./gallery/overview-west-side.jpg)
+
+![East side overview](./gallery/overview-east-side.jpg)
 
 
 ### Licence
@@ -23,15 +27,28 @@ As the name implies **Sporniket's conversion of the schematics of the 'Atari 260
 
 **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+### Releases
+
+#### v1.0.0-beta.1
+
+First release with a "good enough" PCB remake and schematics. Most errors in the schematic have been fixed by remaking the PCB. ERC and DRC errors have been fixed (some DRC errors have been excluded on a case by case assessment whether it has a real impact, e.g. some courtyards collisions).
+
+
 ## 2. What should you know before using **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** ?
 
-As the name implies, **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is made using [Kicad 6](https://www.kicad.org/).
+As the name implies, **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** is made using [Kicad](https://www.kicad.org/), version 7.0.
 
 The git repository use several submodules that one has to fetch in order to get the symbols, footprint and 3dmodels. 
 
 This project contains a PCB design that is an **approximate reconstruction** :
 
-* Component, mounting hole placement and routing were **approximatively** guided using a degraded pcb scans from a scanned service manual found on the [Atari Document Archive (confidential)](https://docs.dev-docs.org/)
+* Component, mounting hole placement and routing were **approximatively** guided using a degraded pcb scans from a scanned service manual found on the [Atari Document Archive (confidential)](https://docs.dev-docs.org/). An actual motherboard could be acquired and some positionning could be refined.
+
+* The PCB part of the modulator is especially a best effort, as I could not find converging references about component placement and routing.
+
+* There was several revision of the original motherboard, thus there will be discrepancies between the PCB of the project and real PCBs anyway.
+
+* For all of those reasons, the project will stay in "beta" version until an actual assembly is made and shows the computer working -at the very least a complete boot sequence until the GEM Desktop-.
 
 > Do not use **Sporniket's conversion of the schematics of the 'Atari 260ST/520ST' computer into Kicad** if this project is not suitable for your project.
 
@@ -49,9 +66,9 @@ Then, open the project in Kicad.
 
 A github releases will provide :
 
-* A standalone Kicad project (all custom libraries included)
 * A PDF of the schematics
 * A PDF of the silkscreen
+* An archive of gerber files
 
 ## 4. Known issues
 See the [project issues](https://github.com/sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231/issues) page.
