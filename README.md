@@ -29,6 +29,12 @@ As the name implies **Sporniket's conversion of the schematics of the 'Atari 260
 
 ### Releases
 
+#### v1.0.0-beta.2
+
+* Put a soldering point and silkscreen mark for ACSI port pin 10
+* Add text on silkscreen to render ISSUE_DATE and REVISION variables
+
+
 #### v1.0.0-beta.1
 
 First release with a "good enough" PCB remake and schematics. Most errors in the schematic have been fixed by remaking the PCB. ERC and DRC errors have been fixed (some DRC errors have been excluded on a case by case assessment whether it has a real impact, e.g. some courtyards collisions).

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Converted schematics of Atari 260/520 ST")
-    (date "2024-05-25")
-    (rev "v1.0.0-beta")
+    (date "2024-06-08")
+    (rev "v1.0.0-beta.2")
     (comment 1 "…sporniket/kicad-conversions--atari-260-520-st-motherboard--c070231")
     (comment 2 "Original repository : https://github.com/…")
     (comment 4 "Reference : C070231")
